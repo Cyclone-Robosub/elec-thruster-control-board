@@ -5,7 +5,7 @@
 	(uuid "fa018284-1034-44b1-9794-14f4e7ef613d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Socket"
+		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,7 +21,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02_Socket"
+			(property "Value" "Conn_01x02"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -47,21 +47,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -82,11 +74,21 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -95,34 +97,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -4073,7 +4050,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 39.37 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4083,7 +4060,7 @@
 		(fields_autoplaced yes)
 		(uuid "00d94e23-f3c9-4727-a605-828115e452c3")
 		(property "Reference" "J4"
-			(at 40.005 62.23 0)
+			(at 39.37 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4068,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 40.005 64.77 0)
+			(at 39.37 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +4093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 39.37 69.85 0)
 			(effects
 				(font
@@ -4141,7 +4118,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 193.04 64.77 0)
 		(mirror x)
 		(unit 1)
@@ -4184,7 +4161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 193.04 64.77 0)
 			(effects
 				(font
@@ -4632,7 +4609,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 39.37 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4642,7 +4619,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ed4c181-ae5c-48fe-ba8a-efbc5f22787d")
 		(property "Reference" "J2"
-			(at 40.005 54.61 0)
+			(at 39.37 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,7 +4627,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 40.005 57.15 0)
+			(at 39.37 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +4652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 39.37 62.23 0)
 			(effects
 				(font
@@ -5886,7 +5863,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 39.37 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5896,7 +5873,7 @@
 		(fields_autoplaced yes)
 		(uuid "861e206d-e80d-4593-808b-1c5b9f014b29")
 		(property "Reference" "J6"
-			(at 40.005 86.36 0)
+			(at 39.37 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5904,7 +5881,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 40.005 88.9 0)
+			(at 39.37 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5929,7 +5906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 39.37 93.98 0)
 			(effects
 				(font
@@ -6459,7 +6436,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 39.37 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6469,7 +6446,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3289635-7c6e-414c-b799-47e1d9683e17")
 		(property "Reference" "J5"
-			(at 40.005 69.85 0)
+			(at 39.37 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,7 +6454,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 40.005 72.39 0)
+			(at 39.37 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +6479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 39.37 77.47 0)
 			(effects
 				(font
@@ -6659,7 +6636,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 39.37 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6669,7 +6646,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad1842ae-5a20-455a-95f6-d2f7cf9225dd")
 		(property "Reference" "J14"
-			(at 40.005 78.74 0)
+			(at 39.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6677,7 +6654,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 40.005 81.28 0)
+			(at 39.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6702,7 +6679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 39.37 86.36 0)
 			(effects
 				(font
@@ -6872,7 +6849,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 193.04 83.82 0)
 		(mirror x)
 		(unit 1)
@@ -6915,7 +6892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 193.04 83.82 0)
 			(effects
 				(font
@@ -7311,7 +7288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 193.04 74.93 0)
 		(mirror x)
 		(unit 1)
@@ -7354,7 +7331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 193.04 74.93 0)
 			(effects
 				(font
@@ -7379,7 +7356,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 193.04 102.87 0)
 		(mirror x)
 		(unit 1)
@@ -7422,7 +7399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 193.04 102.87 0)
 			(effects
 				(font
@@ -7447,7 +7424,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 193.04 92.71 0)
 		(mirror x)
 		(unit 1)
@@ -7490,7 +7467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 193.04 92.71 0)
 			(effects
 				(font
