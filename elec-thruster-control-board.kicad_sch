@@ -3835,17 +3835,27 @@
 		)
 		(uuid "ffc2a511-940d-4c3c-a67b-3bcef32ba0bc")
 	)
-	(label "gpio6"
-		(at 119.38 137.16 90)
+	(label "gp2-pwm1A"
+		(at 124.46 137.16 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1de02c95-5f9b-4b2a-adcf-c1d07433e937")
+		(uuid "0c9453c8-4cc2-4c7a-bd58-fe32ec1b8935")
 	)
-	(label "gpio27-pwm5B"
+	(label "gp0-pwm0A"
+		(at 127 137.16 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e276a11-3f77-49c7-95b0-c8f7ce884112")
+	)
+	(label "gp27-pwm5B"
 		(at 186.69 97.79 0)
 		(effects
 			(font
@@ -3865,16 +3875,6 @@
 		)
 		(uuid "30434a0c-bc59-4832-920a-1307c4d87c50")
 	)
-	(label "gpio0"
-		(at 127 137.16 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "39775ca1-f97e-4f32-a7f1-d7a9fca5d36e")
-	)
 	(label "gp6-pwm3A"
 		(at 44.45 85.09 0)
 		(effects
@@ -3884,6 +3884,16 @@
 			(justify left bottom)
 		)
 		(uuid "407a90df-2093-41d0-89ba-0067b5e07692")
+	)
+	(label "gp6-pwm3A"
+		(at 119.38 137.16 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41792ee7-b0dc-4b19-ac5a-1ec831e1c447")
 	)
 	(label "gp4-pwm2A"
 		(at 45.72 63.5 0)
@@ -3895,6 +3905,16 @@
 		)
 		(uuid "52b877e4-e602-44f5-93d4-fabed67beb10")
 	)
+	(label "gp4-pwm2A"
+		(at 121.92 137.16 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5485188e-e709-4bb3-87be-3f5aa78ac31c")
+	)
 	(label "gp26-pwm5A"
 		(at 186.69 76.2 0)
 		(effects
@@ -3905,15 +3925,25 @@
 		)
 		(uuid "575283d8-1b77-4a39-8577-363bb98db7df")
 	)
-	(label "gpio20"
-		(at 121.92 149.86 270)
+	(label "gp19-pwm1B"
+		(at 124.46 149.86 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "588b80da-e0e0-42e9-a252-1d396ef48127")
+		(uuid "59657775-25b2-42f3-b1ba-1a7df169a97a")
+	)
+	(label "gp26-pwm5A"
+		(at 119.38 149.86 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "78a3f993-926a-4b41-a201-3046f2e7dedf")
 	)
 	(label "CLK"
 		(at 116.84 137.16 180)
@@ -3925,26 +3955,6 @@
 		)
 		(uuid "7c60e844-aef1-4a0f-983a-4178badc6d73")
 	)
-	(label "gpio22"
-		(at 119.38 149.86 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7c6c0625-f00d-4dff-8e75-0cde588152e2")
-	)
-	(label "gpio16"
-		(at 127 149.86 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "91c71046-8e8a-4284-9af8-e7ef08365bef")
-	)
 	(label "gp0-pwm0A"
 		(at 44.45 21.59 0)
 		(effects
@@ -3954,26 +3964,6 @@
 			(justify left bottom)
 		)
 		(uuid "9d5de239-1fbf-45d9-b6fe-482dc4bef0cf")
-	)
-	(label "gpio18"
-		(at 124.46 149.86 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "adb4c867-3d49-4530-be39-1c221e0b8b58")
-	)
-	(label "gpio4"
-		(at 121.92 137.16 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae07d4e8-d3d5-4dc8-8224-ca2da83898cd")
 	)
 	(label "gp19-pwm1B"
 		(at 186.69 36.83 0)
@@ -3985,16 +3975,6 @@
 		)
 		(uuid "bb63fdde-72e4-470f-84ad-d0ed895eb1bb")
 	)
-	(label "gpio2"
-		(at 124.46 137.16 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc38c295-00b5-40bc-a13b-d64eacc2580c")
-	)
 	(label "gp21-pwm2B"
 		(at 186.69 57.15 0)
 		(effects
@@ -4004,6 +3984,16 @@
 			(justify left bottom)
 		)
 		(uuid "be1ec9a5-4817-4c2f-980e-594b477a3a94")
+	)
+	(label "gp17-pwm0B"
+		(at 127 149.86 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d0edeb05-4138-4731-8c04-f27d43871402")
 	)
 	(label "gp2-pwm1A"
 		(at 45.72 41.91 0)
@@ -4024,6 +4014,16 @@
 			(justify left bottom)
 		)
 		(uuid "ea586f4d-d637-4514-bc89-2b15403441a8")
+	)
+	(label "gp21-pwm2B"
+		(at 121.92 149.86 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed605500-9444-44d2-841a-1c139a615ab3")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
@@ -4853,7 +4853,6 @@
 		)
 		(pin "1"
 			(uuid "eedce8fa-eece-4899-b5ec-3367378202f4")
-			(alternate "PWM0_A")
 		)
 		(pin "17"
 			(uuid "dd87b54b-4fd1-40d2-8276-d70169b48f53")
@@ -4902,18 +4901,16 @@
 		)
 		(pin "34"
 			(uuid "4be0518e-0253-4226-9aac-73f844d68da0")
-			(alternate "PWM6_A")
+			(alternate "GPIO28")
 		)
 		(pin "22"
 			(uuid "3ddaafc5-9030-46c6-b801-87573e96119c")
-			(alternate "PWM0_B")
 		)
 		(pin "8"
 			(uuid "c63ae8b5-354d-41f2-9361-fb456fdecbb5")
 		)
 		(pin "27"
 			(uuid "e7c2bf9e-bc27-428e-8db5-6c4d4d081f24")
-			(alternate "PWM2_B")
 		)
 		(pin "26"
 			(uuid "4adbfd03-e723-4b86-aca9-447527121979")
@@ -4929,7 +4926,7 @@
 		)
 		(pin "32"
 			(uuid "2db87f25-557c-4dc6-91ae-87c21f54f593")
-			(alternate "PWM5_B")
+			(alternate "GPIO27")
 		)
 		(pin "33"
 			(uuid "03633da4-874e-47b7-b2a3-afa47fe1a175")
