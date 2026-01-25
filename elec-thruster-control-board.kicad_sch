@@ -5,6 +5,119 @@
 	(uuid "fa018284-1034-44b1-9794-14f4e7ef613d")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -1953,2213 +2066,2074 @@
 		)
 	)
 	(junction
-		(at 184.15 74.93)
+		(at 67.31 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0465c0c8-7294-4583-8210-e4494bf3eb1e")
+		(uuid "00928b8f-acb2-4f4e-ae97-81a2a1389632")
 	)
 	(junction
-		(at 57.15 90.17)
+		(at 115.57 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f997894-fdab-43bc-b036-bec962698484")
+		(uuid "0ecb88bc-0135-493f-b82c-818720d22a32")
 	)
 	(junction
-		(at 185.42 102.87)
+		(at 115.57 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1e0e7872-37b6-482a-a40b-b13c04ec55f5")
+		(uuid "38cafa2b-06c4-4c60-8d54-d7efbbfbb7ba")
 	)
 	(junction
-		(at 100.33 64.77)
+		(at 67.31 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "218cd5a6-12fd-4138-9829-87255a6ab141")
+		(uuid "38edf550-7385-45c3-bf55-9dbfd5a30685")
 	)
 	(junction
-		(at 185.42 92.71)
+		(at 201.93 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "224d9843-5fb1-4d5c-89a4-b6c2dee64244")
+		(uuid "42935f09-33fe-42ba-b2ef-c6b47fc5a582")
 	)
 	(junction
-		(at 184.15 83.82)
+		(at 201.93 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "22f4e4cc-f6f3-477b-9ccb-308b6d1e7d30")
+		(uuid "77d99bb3-1d13-4572-8d90-d04a9e2e219d")
 	)
 	(junction
-		(at 53.34 69.85)
+		(at 115.57 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2f6c22ac-0871-465a-a4ec-3c190f118799")
+		(uuid "7e311155-0323-4e96-9ee5-6b95312989b4")
 	)
 	(junction
-		(at 43.18 120.65)
+		(at 201.93 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3d5848a6-da0d-43d4-b0a7-5e3148c965bf")
+		(uuid "7e8e1d80-0bc4-4fab-ab38-9f0fa6c4e4c1")
 	)
 	(junction
-		(at 177.8 64.77)
+		(at 68.58 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3ff43246-e8a8-4f23-a82c-0e8b92480576")
+		(uuid "84cac07f-37e8-45bc-866b-f8b8746e21a6")
 	)
 	(junction
-		(at 43.18 125.73)
+		(at 67.31 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "52a94b72-3e35-4cb1-ac4f-68fab91123d0")
+		(uuid "89f97aec-4624-4095-adb3-248729c36873")
 	)
 	(junction
-		(at 100.33 69.85)
+		(at 161.29 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53a8fa75-59c1-4148-bacd-894a81c41abe")
+		(uuid "8e5dd301-516f-4f9d-b00c-6c40e7b65637")
 	)
 	(junction
-		(at 100.33 80.01)
+		(at 201.93 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "56c1d702-6418-4204-b086-66e3fc51457e")
+		(uuid "96641de5-377e-46da-92e9-c6ce44edb258")
 	)
 	(junction
-		(at 100.33 59.69)
+		(at 115.57 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6117ebc9-faa1-4794-be0b-b01e7d745676")
+		(uuid "9c65786f-3541-4046-9935-92e2c9d077c4")
 	)
 	(junction
-		(at 53.34 62.23)
+		(at 115.57 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "625fdd37-0974-4418-8762-1f9cacb134d5")
+		(uuid "a751a11f-7769-4586-b8c1-42dd88c0325a")
 	)
 	(junction
-		(at 55.88 82.55)
+		(at 57.15 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "720e546e-7683-4f1c-9e2d-50a6930bd00e")
+		(uuid "bc199517-74c7-4dbd-9dd0-18ea68cd7da0")
 	)
 	(junction
-		(at 43.18 106.68)
+		(at 57.15 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7a6821b3-16cc-4df0-b359-606cd6a7f8dd")
+		(uuid "c35874c6-7f53-4b7e-aff4-97ebc6208efb")
 	)
 	(junction
-		(at 146.05 67.31)
+		(at 57.15 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7d63885c-4e11-49ae-a1bf-d105614a9950")
+		(uuid "c6a841c0-101a-4368-9bae-b0836dd933ce")
 	)
 	(junction
-		(at 43.18 111.76)
+		(at 200.66 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a4a9d4aa-34f1-4eca-aea5-14b204877afc")
+		(uuid "c931b40c-4c74-4c02-b0ab-f6f6292bdce6")
 	)
 	(junction
-		(at 100.33 74.93)
+		(at 57.15 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a6c0c5d1-b688-40ab-8a1c-0bdd101f4c5b")
+		(uuid "d5e6745d-b082-475e-b48e-c1f7466242e9")
 	)
 	(junction
-		(at 146.05 90.17)
+		(at 57.15 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b4a5d787-b498-465e-b8bf-b34388f26f49")
+		(uuid "d8b8ca3e-eae2-4c75-befc-983638e28f29")
 	)
 	(junction
-		(at 58.42 77.47)
+		(at 68.58 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cb8e164e-6ca1-4e9f-926f-02b577c4fcb5")
+		(uuid "e3bcb455-ccf7-404e-8586-94e38ba0c578")
 	)
-	(junction
-		(at 146.05 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de612462-397b-46c1-9c3e-f17eea1bda85")
-	)
-	(junction
-		(at 146.05 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f49e0fe4-b6ce-4f00-a679-2642f987579f")
-	)
-	(junction
-		(at 43.18 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f681737c-e4d2-41e2-994f-d3936bde6530")
-	)
-	(junction
-		(at 146.05 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "faf070db-435c-4cd6-8f26-9e1a0c01cf4e")
-	)
-	(wire
-		(pts
-			(xy 90.17 82.55) (xy 77.47 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "003ef1a6-8a36-4076-8243-5d01286351bf")
-	)
-	(wire
-		(pts
-			(xy 185.42 102.87) (xy 185.42 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02549c3f-9a1e-4a6a-a2d8-d2834bb0cd29")
-	)
-	(wire
-		(pts
-			(xy 43.18 115.57) (xy 43.18 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "026b1541-5c51-4acc-8868-37f152e5c581")
-	)
-	(wire
-		(pts
-			(xy 95.25 87.63) (xy 100.33 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "051ac282-f343-421d-9063-a9db664ecb82")
-	)
-	(wire
-		(pts
-			(xy 83.82 69.85) (xy 83.82 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05435139-7ebb-48fc-94c2-9a2870553a03")
-	)
-	(wire
-		(pts
-			(xy 153.67 100.33) (xy 153.67 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "084608c8-e565-462f-aa41-ef4065034daf")
-	)
-	(wire
-		(pts
-			(xy 63.5 125.73) (xy 80.01 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "085e379f-847c-4e81-8e50-42808722f8d4")
-	)
-	(wire
-		(pts
-			(xy 158.75 92.71) (xy 151.13 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09e1fd21-05c3-441f-9cd1-778e3523ae29")
-	)
-	(wire
-		(pts
-			(xy 55.88 90.17) (xy 57.15 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b3deb1b-7240-4374-8eb0-fe2f99d4c1d7")
-	)
-	(wire
-		(pts
-			(xy 44.45 67.31) (xy 82.55 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bb6f132-0886-41a8-b715-94cbbaa0b343")
-	)
-	(wire
-		(pts
-			(xy 100.33 59.69) (xy 120.65 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dab0a6f-ad3a-4b64-8f94-2335d1a638e3")
-	)
-	(wire
-		(pts
-			(xy 67.31 74.93) (xy 69.85 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0de21b9b-85a7-4bb3-96c1-2d277a4c1962")
-	)
-	(wire
-		(pts
-			(xy 151.13 87.63) (xy 151.13 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10cffe2d-8bb3-4e58-8fcb-413e128f4ab0")
-	)
-	(wire
-		(pts
-			(xy 63.5 101.6) (xy 63.5 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12b03a32-ca13-463c-be8b-8490fd802bc2")
-	)
-	(wire
-		(pts
-			(xy 88.9 74.93) (xy 100.33 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1546610d-ae00-4f79-bf1f-85b0906ffc1a")
-	)
-	(wire
-		(pts
-			(xy 45.72 101.6) (xy 43.18 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15fd95b0-c8e0-464f-b3f4-cb70c42f405e")
-	)
-	(wire
-		(pts
-			(xy 156.21 69.85) (xy 146.05 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16c9a456-afa2-43c0-9c10-567df4ab331a")
-	)
 	(wire
 		(pts
-			(xy 54.61 85.09) (xy 91.44 85.09)
+			(xy 172.72 127) (xy 172.72 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1714e77a-6965-419e-b378-95c568ca2eaa")
+		(uuid "003407f0-8236-4f81-97d5-f95ebc3f83a5")
 	)
 	(wire
 		(pts
-			(xy 67.31 62.23) (xy 69.85 62.23)
+			(xy 57.15 173.99) (xy 57.15 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "172ee994-b3e8-48be-92c7-054296097d9b")
+		(uuid "0175dd27-34b1-4e88-9eb8-0a24cd674f05")
 	)
 	(wire
 		(pts
-			(xy 43.18 106.68) (xy 45.72 106.68)
+			(xy 80.01 165.1) (xy 80.01 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a72fd8e-0970-4003-8be4-250a3eb80d54")
+		(uuid "02e3c9a0-0478-47cf-a1fa-e5d0819dd796")
 	)
 	(wire
 		(pts
-			(xy 91.44 80.01) (xy 100.33 80.01)
+			(xy 185.42 96.52) (xy 186.69 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1add30f4-38d8-4fc7-a8da-0f8ab72724e1")
+		(uuid "06c2510d-8a8d-4c25-b701-e4b8365af2d4")
 	)
 	(wire
 		(pts
-			(xy 57.15 72.39) (xy 86.36 72.39)
+			(xy 115.57 93.98) (xy 105.41 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c02f29f-3242-4ccb-a73f-3270d7ac27e2")
+		(uuid "06fc1315-1ef4-4aec-83a3-f4966805fd06")
 	)
 	(wire
 		(pts
-			(xy 124.46 62.23) (xy 146.05 62.23)
+			(xy 55.88 49.53) (xy 63.5 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c39c6a0-9261-464a-9d3a-e8c0806799d9")
+		(uuid "0748ecb4-8fea-478b-b066-36505e0dc699")
 	)
 	(wire
 		(pts
-			(xy 153.67 95.25) (xy 149.86 95.25)
+			(xy 104.14 91.44) (xy 104.14 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d8c02dc-6f26-4c33-b5e3-4ef993687413")
+		(uuid "0a618d4a-2ba9-4345-8798-f375e0686ffe")
 	)
 	(wire
 		(pts
-			(xy 43.18 106.68) (xy 43.18 111.76)
+			(xy 167.64 104.14) (xy 161.29 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f0c128e-e25c-4b77-81be-e1036560b1d6")
+		(uuid "0a6c49f8-085c-4841-8be2-5148b62feac3")
 	)
 	(wire
 		(pts
-			(xy 160.02 67.31) (xy 160.02 60.96)
+			(xy 57.15 154.94) (xy 57.15 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21d8fc26-fd64-4371-abec-1fb8d9ac1d81")
+		(uuid "0b2007c2-79a4-4967-ae73-338ca4436b49")
 	)
 	(wire
 		(pts
-			(xy 100.33 95.25) (xy 99.06 95.25)
+			(xy 78.74 160.02) (xy 78.74 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "229853dc-5d5b-4922-a8bc-83fdd04b8bd9")
+		(uuid "0cf14b82-e250-492e-9d5a-a8a9fc35ea54")
 	)
 	(wire
 		(pts
-			(xy 160.02 73.66) (xy 160.02 72.39)
+			(xy 185.42 86.36) (xy 186.69 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23142613-3903-40ee-b0e5-6ef79244ef28")
+		(uuid "10b68e9b-9960-412d-8760-6dd32ee6b8d9")
 	)
 	(wire
 		(pts
-			(xy 146.05 60.96) (xy 146.05 62.23)
+			(xy 161.29 81.28) (xy 163.83 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23843e38-4f8c-4791-9b80-feee7d214b4d")
+		(uuid "10cbfd9a-882f-499d-9b43-57c1d2126889")
 	)
 	(wire
 		(pts
-			(xy 184.15 83.82) (xy 184.15 86.36)
+			(xy 173.99 86.36) (xy 177.8 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "241e7a3a-46f0-48ac-b15c-132aaa7890c6")
+		(uuid "131e81a5-beb5-46b8-b176-31c6576e5a61")
 	)
 	(wire
 		(pts
-			(xy 113.03 134.62) (xy 132.08 134.62)
+			(xy 115.57 81.28) (xy 104.14 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28b97440-a8bc-4880-8dec-5509f9c0f1d3")
+		(uuid "139bbc7e-6c7c-4917-8d52-3432201c2fe4")
 	)
 	(wire
 		(pts
-			(xy 59.69 74.93) (xy 58.42 74.93)
+			(xy 114.3 111.76) (xy 114.3 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b5730eb-9893-4806-94a6-41d3b23fadad")
+		(uuid "15fffc69-fb8d-4e1f-812d-f82c40656a71")
 	)
 	(wire
 		(pts
-			(xy 67.31 100.33) (xy 67.31 115.57)
+			(xy 201.93 101.6) (xy 214.63 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d63a659-390f-4bf9-a6d4-02d2fd2cfa6a")
+		(uuid "19ac58e7-a0c2-49b6-9504-adb2d608777f")
 	)
 	(wire
 		(pts
-			(xy 115.57 127) (xy 115.57 132.08)
+			(xy 201.93 82.55) (xy 171.45 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2de0beb5-b4fe-4bdd-9246-3b26286684d9")
+		(uuid "1ba48c3a-7432-4204-8a7c-8db6b0744016")
 	)
 	(wire
 		(pts
-			(xy 166.37 92.71) (xy 172.72 92.71)
+			(xy 82.55 156.21) (xy 114.3 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2de301c0-8969-423a-81a5-79aea7b5d90c")
+		(uuid "1c21e1ac-887b-45dc-b16e-0cf707b8e7d8")
 	)
 	(wire
 		(pts
-			(xy 97.79 100.33) (xy 97.79 92.71)
+			(xy 168.91 86.36) (xy 168.91 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f2edf56-d733-4b7a-a13b-0f1cd1f5a287")
+		(uuid "1c6e1a40-bba0-481f-85f9-478a92bea159")
 	)
 	(wire
 		(pts
-			(xy 129.54 72.39) (xy 146.05 72.39)
+			(xy 194.31 86.36) (xy 199.39 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f67eb0d-f923-4d89-9695-207374ea16fd")
+		(uuid "1db9d762-e345-42c1-be9e-cf8ff1665ada")
 	)
 	(wire
 		(pts
-			(xy 185.42 62.23) (xy 187.96 62.23)
+			(xy 194.31 96.52) (xy 199.39 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "338152f8-22f3-4d1a-932c-47475418efa7")
+		(uuid "1e26e321-bf52-44d9-bc08-efce67ae9383")
 	)
 	(wire
 		(pts
-			(xy 64.77 106.68) (xy 64.77 95.25)
+			(xy 166.37 62.23) (xy 166.37 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33b2bd7a-679e-45d1-bf0c-c2d0f115ab7a")
+		(uuid "1f5579b8-7a5e-491d-b979-07f1bd1f0fde")
 	)
 	(wire
 		(pts
-			(xy 53.34 120.65) (xy 55.88 120.65)
+			(xy 67.31 160.02) (xy 69.85 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3413efba-7b29-4ceb-aef2-b42a8f86f0c3")
+		(uuid "232a81b5-2430-4abd-91c7-8aca8ee505a9")
 	)
 	(wire
 		(pts
-			(xy 96.52 97.79) (xy 96.52 90.17)
+			(xy 111.76 151.13) (xy 111.76 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35414f26-68f8-4f91-b60b-0f4f99c7315b")
+		(uuid "243b166a-6fc4-4d67-8a76-fce4ed316e72")
 	)
 	(wire
 		(pts
-			(xy 147.32 96.52) (xy 147.32 92.71)
+			(xy 81.28 153.67) (xy 113.03 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35ef8bcb-6c37-4375-b9ff-118333d82f32")
+		(uuid "25380d4b-348f-4b72-80ab-030e52e2e5fb")
 	)
 	(wire
 		(pts
-			(xy 100.33 77.47) (xy 90.17 77.47)
+			(xy 57.15 165.1) (xy 57.15 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36559e76-023d-4d01-aa33-f62ee3af14a4")
+		(uuid "261809d2-fd56-446a-bf47-97e637667143")
 	)
 	(wire
 		(pts
-			(xy 64.77 95.25) (xy 95.25 95.25)
+			(xy 86.36 134.62) (xy 88.9 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38f75b63-43eb-42b0-b152-01397efe7e21")
+		(uuid "26393653-1222-425c-8682-c4bf8f9ac827")
 	)
 	(wire
 		(pts
-			(xy 55.88 82.55) (xy 59.69 82.55)
+			(xy 110.49 104.14) (xy 115.57 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f71bf1a-d655-41de-857a-97970ca64f75")
+		(uuid "27887b86-96cf-405c-bd94-20f4f2bf6326")
 	)
 	(wire
 		(pts
-			(xy 43.18 111.76) (xy 45.72 111.76)
+			(xy 82.55 173.99) (xy 77.47 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40a996be-4424-4bf9-93b5-c1a63828de02")
+		(uuid "28a70591-374c-4302-bee7-083087067783")
 	)
 	(wire
 		(pts
-			(xy 146.05 67.31) (xy 148.59 67.31)
+			(xy 68.58 67.31) (xy 68.58 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42147506-c80d-4cd7-9aa5-17760b2e16df")
+		(uuid "2ab3b003-8031-4c56-abf6-fe567bb21186")
 	)
 	(wire
 		(pts
-			(xy 158.75 83.82) (xy 153.67 83.82)
+			(xy 67.31 179.07) (xy 69.85 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43406d42-f10d-4af5-be64-271e473852ce")
+		(uuid "2d615874-23b2-4e8e-8ee8-1386c0805bd6")
 	)
 	(wire
 		(pts
-			(xy 74.93 105.41) (xy 99.06 105.41)
+			(xy 68.58 58.42) (xy 55.88 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46f6be56-e834-4358-948d-518655a40046")
+		(uuid "310265d6-fa89-4bf1-85a2-7a8c1d31631c")
 	)
 	(wire
 		(pts
-			(xy 54.61 85.09) (xy 54.61 91.44)
+			(xy 55.88 69.85) (xy 64.77 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4726457c-b224-412d-9abd-0576cd115b69")
+		(uuid "317d8391-e040-4a45-896b-54a313fc07df")
 	)
 	(wire
 		(pts
-			(xy 113.03 127) (xy 113.03 134.62)
+			(xy 67.31 154.94) (xy 69.85 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47657e86-5c2b-4b1a-aa4f-fd834c8ae1c3")
+		(uuid "32e8cadb-2d37-4b21-ad52-140b26d830d1")
 	)
 	(wire
 		(pts
-			(xy 58.42 74.93) (xy 58.42 77.47)
+			(xy 111.76 106.68) (xy 115.57 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "481449fa-b5c5-414b-b9fa-2195e6ad16c8")
+		(uuid "3308c38f-58ca-4add-86a8-87aa088623ac")
 	)
 	(wire
 		(pts
-			(xy 67.31 115.57) (xy 63.5 115.57)
+			(xy 77.47 165.1) (xy 80.01 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48b69548-d9f3-4ad3-913b-83bafcbc54d6")
+		(uuid "34c4a911-c084-423b-9bca-119b3798656e")
 	)
 	(wire
 		(pts
-			(xy 152.4 85.09) (xy 152.4 77.47)
+			(xy 105.41 93.98) (xy 105.41 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "490df93c-7f5c-44f2-bae6-3f154a24d711")
+		(uuid "3901355b-92ae-4a25-9289-cc82a894facf")
 	)
 	(wire
 		(pts
-			(xy 151.13 96.52) (xy 151.13 102.87)
+			(xy 57.15 173.99) (xy 59.69 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a2dedcd-c6b2-4d0a-a6f6-04e8d0c5c4b5")
+		(uuid "39e7c3ba-1f8b-4106-ad03-6117839905b9")
 	)
 	(wire
 		(pts
-			(xy 157.48 67.31) (xy 157.48 73.66)
+			(xy 214.63 104.14) (xy 205.74 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b3572ee-7a08-414d-af6d-dc85ccaa21c2")
+		(uuid "39f499d3-f49b-4939-a776-0d777f50d23f")
 	)
 	(wire
 		(pts
-			(xy 148.59 67.31) (xy 148.59 55.88)
+			(xy 97.79 115.57) (xy 97.79 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c4eadf9-275d-4ea8-8d75-02af74a8040e")
+		(uuid "3b88c207-cd97-413c-a0bb-8e75a1867ac9")
 	)
 	(wire
 		(pts
-			(xy 127 129.54) (xy 127 67.31)
+			(xy 106.68 96.52) (xy 115.57 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d7fbfd5-e728-4bec-bcd5-7991325e663a")
+		(uuid "3bacad1b-00f4-4036-9d8c-7cdd935cb052")
 	)
 	(wire
 		(pts
-			(xy 67.31 87.63) (xy 69.85 87.63)
+			(xy 73.66 91.44) (xy 80.01 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4dfb4a65-4fc2-4311-99cc-d4f517191a34")
+		(uuid "3cf7359b-5187-450c-af70-fe13bef0f1c0")
 	)
 	(wire
 		(pts
-			(xy 77.47 86.36) (xy 77.47 87.63)
+			(xy 55.88 132.08) (xy 67.31 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ea579dc-c5fb-433c-bc1a-c7731467022f")
+		(uuid "3d4e3a1e-1c26-4003-88ac-b4fa7bdf2bd4")
 	)
 	(wire
 		(pts
-			(xy 43.18 111.76) (xy 43.18 115.57)
+			(xy 163.83 45.72) (xy 176.53 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f251769-50ed-4688-b30c-060074055be6")
+		(uuid "411e2256-3b31-444f-b340-a6e636875c2b")
 	)
 	(wire
 		(pts
-			(xy 86.36 72.39) (xy 86.36 69.85)
+			(xy 163.83 81.28) (xy 163.83 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4fd344e3-231a-402c-9a60-75ceca37bc3d")
+		(uuid "4153c8a3-aca2-49ab-abe4-8c342c007261")
 	)
 	(wire
 		(pts
-			(xy 43.18 120.65) (xy 45.72 120.65)
+			(xy 104.14 81.28) (xy 104.14 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "513ce701-ee38-4e41-ab2c-12e7e9a70aee")
+		(uuid "41bd170a-096f-4c19-857b-979ba23334a8")
 	)
 	(wire
 		(pts
-			(xy 92.71 86.36) (xy 92.71 82.55)
+			(xy 177.8 66.04) (xy 168.91 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51986543-8d00-4aaf-8d52-1b9fec38dfd7")
+		(uuid "42a75181-707f-4122-9843-f044b6d95cd6")
 	)
 	(wire
 		(pts
-			(xy 91.44 85.09) (xy 91.44 80.01)
+			(xy 86.36 113.03) (xy 88.9 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "523e3f1d-2459-470a-a119-3447a841dba7")
+		(uuid "42c87382-21c1-42ec-b975-2fbb756e6fe4")
 	)
 	(wire
 		(pts
-			(xy 44.45 62.23) (xy 53.34 62.23)
+			(xy 67.31 165.1) (xy 69.85 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55087ba5-91d8-4f94-b2c3-5c85f2b31020")
+		(uuid "4396fc46-6daa-4d4a-bb19-1be883382543")
 	)
 	(wire
 		(pts
-			(xy 134.62 90.17) (xy 146.05 90.17)
+			(xy 214.63 125.73) (xy 205.74 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55ed6256-ad6d-4ee9-8759-5698ba35e8b6")
+		(uuid "44563fe3-c1e5-4627-aee5-db1e299ef09b")
 	)
 	(wire
 		(pts
-			(xy 52.07 80.01) (xy 52.07 83.82)
+			(xy 67.31 101.6) (xy 55.88 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5788138b-daa9-4479-9413-e943fd70461d")
+		(uuid "455f362c-fb39-4fb2-a110-adcc20ec1354")
 	)
 	(wire
 		(pts
-			(xy 55.88 93.98) (xy 55.88 90.17)
+			(xy 214.63 85.09) (xy 205.74 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59a4ac41-7f18-4dad-a819-0c207481fbdf")
+		(uuid "4579a162-2f5d-4dc5-b116-a85666a3ea1a")
 	)
 	(wire
 		(pts
-			(xy 53.34 115.57) (xy 55.88 115.57)
+			(xy 81.28 168.91) (xy 77.47 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59f4850c-0d04-481b-89b3-05b0bb835d30")
+		(uuid "47cc002e-5a6a-4ee9-8c29-e65f9dae3759")
 	)
 	(wire
 		(pts
-			(xy 158.75 102.87) (xy 151.13 102.87)
+			(xy 67.31 38.1) (xy 55.88 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b5e7cfb-b5a2-437f-a551-2a7fb05667a6")
+		(uuid "49695d37-e3fb-435c-8d74-f567cdc59c93")
 	)
 	(wire
 		(pts
-			(xy 74.93 105.41) (xy 74.93 120.65)
+			(xy 67.31 168.91) (xy 69.85 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d5e0fdf-6eb4-417e-9f99-f729996b2a69")
+		(uuid "4b063b69-f288-4cd3-b6eb-d89f44e7cbda")
 	)
 	(wire
 		(pts
-			(xy 88.9 80.01) (xy 88.9 74.93)
+			(xy 201.93 73.66) (xy 214.63 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5db0f790-dbe0-4d79-b1f6-2b316a212a73")
+		(uuid "4bdf236f-d0cb-4163-b045-b5e96f7fd002")
 	)
 	(wire
 		(pts
-			(xy 177.8 64.77) (xy 187.96 64.77)
+			(xy 85.09 158.75) (xy 85.09 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5de9a50b-b15e-4a32-899f-bcfd2cd1a754")
+		(uuid "4dc316e9-18e7-4d63-b479-4ce1bfd840a2")
 	)
 	(wire
 		(pts
-			(xy 74.93 120.65) (xy 63.5 120.65)
+			(xy 67.31 110.49) (xy 67.31 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f14b0d4-acbb-4a2e-8429-dfbda4d97df8")
+		(uuid "4de8b4dc-1d84-433f-9bca-af5a822ca83a")
 	)
 	(wire
 		(pts
-			(xy 44.45 69.85) (xy 53.34 69.85)
+			(xy 184.15 45.72) (xy 185.42 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5fae7074-90c9-414b-98d4-a7a5a4ec2a00")
+		(uuid "4e8a84d8-8d6f-49d6-b943-d29e4e9df55a")
 	)
 	(wire
 		(pts
-			(xy 118.11 127) (xy 118.11 129.54)
+			(xy 55.88 46.99) (xy 67.31 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6169b6c6-ff5b-4f2c-b283-f06fdaf043e8")
+		(uuid "4ea2a987-8e76-44e1-9c9d-198d6b65ab7f")
 	)
 	(wire
 		(pts
-			(xy 63.5 106.68) (xy 64.77 106.68)
+			(xy 113.03 153.67) (xy 113.03 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6400989e-c2f9-4acb-97e2-d2de70abe009")
+		(uuid "51bd515b-5851-4b6f-bfec-a9f0caca47d5")
 	)
 	(wire
 		(pts
-			(xy 185.42 92.71) (xy 187.96 92.71)
+			(xy 201.93 123.19) (xy 214.63 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "661c5edc-f8f8-4da5-9753-4d07342253ee")
+		(uuid "527303bb-abf7-424b-a1f8-ac99d2aefc05")
 	)
 	(wire
 		(pts
-			(xy 146.05 87.63) (xy 151.13 87.63)
+			(xy 57.15 160.02) (xy 59.69 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "685ed56d-b458-41be-a45f-3b019e6c9598")
+		(uuid "52c6ce07-36ae-4254-98ed-fde94d02a2b3")
 	)
 	(wire
 		(pts
-			(xy 100.33 107.95) (xy 100.33 97.79)
+			(xy 55.88 113.03) (xy 63.5 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68649977-2440-41bd-9e40-6e2aa12625a1")
+		(uuid "553b2626-ac83-4605-9995-2e40ade0e320")
 	)
 	(wire
 		(pts
-			(xy 53.34 125.73) (xy 55.88 125.73)
+			(xy 185.42 127) (xy 186.69 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68ce1bc3-dc05-4fc8-8bb6-c873edc47a25")
+		(uuid "5564dacd-3128-4d3b-a2ee-4ad32b33660a")
 	)
 	(wire
 		(pts
-			(xy 180.34 102.87) (xy 185.42 102.87)
+			(xy 57.15 179.07) (xy 59.69 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b2040e2-c140-4315-8349-e0ae09e1047e")
+		(uuid "57f54d06-f656-496a-b7b9-57dcf1892044")
 	)
 	(wire
 		(pts
-			(xy 53.34 69.85) (xy 59.69 69.85)
+			(xy 213.36 44.45) (xy 204.47 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b2e2ed4-893f-4a30-b7f9-26960de7dea8")
+		(uuid "58a746a6-0b3d-4f3a-80da-67bf25c43bc6")
 	)
 	(wire
 		(pts
-			(xy 96.52 90.17) (xy 100.33 90.17)
+			(xy 106.68 115.57) (xy 97.79 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e64f9b8-53be-44de-859f-3522cbc456b4")
+		(uuid "5b28006e-7792-4470-906d-0d1365db3f68")
 	)
 	(wire
 		(pts
-			(xy 53.34 101.6) (xy 55.88 101.6)
+			(xy 85.09 179.07) (xy 77.47 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74ada75f-2573-4308-ae0c-27420b7a3367")
+		(uuid "5c951dfc-5e1c-4dbf-a651-a770ee040528")
 	)
 	(wire
 		(pts
-			(xy 148.59 55.88) (xy 185.42 55.88)
+			(xy 201.93 73.66) (xy 201.93 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75e43116-e3fd-4f93-a1e5-57d77e639a15")
+		(uuid "5f71cae4-9b53-43e4-b638-2f4a769ac9c4")
 	)
 	(wire
 		(pts
-			(xy 184.15 74.93) (xy 187.96 74.93)
+			(xy 201.93 53.34) (xy 214.63 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a33d30a-1267-4d49-b741-9fc6665d6e35")
+		(uuid "5fec993c-b25a-4dc0-8b00-8c27cf83a9dd")
 	)
 	(wire
 		(pts
-			(xy 113.03 114.3) (xy 113.03 74.93)
+			(xy 115.57 88.9) (xy 100.33 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bd0931b-0643-4564-9cb2-04c54ba806d8")
+		(uuid "6252492c-5d1e-45ea-8318-dc5f279099c3")
 	)
 	(wire
 		(pts
-			(xy 86.36 69.85) (xy 100.33 69.85)
+			(xy 77.47 146.05) (xy 109.22 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81af99d7-f7c2-40b0-81fc-896a10923522")
+		(uuid "62a33a4a-f1f3-4109-b354-95e7cc4ed89d")
 	)
 	(wire
 		(pts
-			(xy 44.45 83.82) (xy 52.07 83.82)
+			(xy 68.58 80.01) (xy 55.88 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "846998c5-cb8a-403a-aca7-462d55285d7e")
+		(uuid "637c5eed-9cf8-4b37-83e6-f2bb3513b160")
 	)
 	(wire
 		(pts
-			(xy 149.86 95.25) (xy 149.86 90.17)
+			(xy 72.39 113.03) (xy 78.74 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8490d59b-7db0-4daa-85be-c089a798c786")
+		(uuid "66802a5e-3628-4db4-a589-cedac15263ed")
 	)
 	(wire
 		(pts
-			(xy 97.79 92.71) (xy 100.33 92.71)
+			(xy 115.57 81.28) (xy 133.35 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86191122-1a22-4df4-9de5-f5419f382e85")
+		(uuid "686b5b13-5a51-4e1e-b4c4-e9a1a164ef63")
 	)
 	(wire
 		(pts
-			(xy 53.34 69.85) (xy 53.34 71.12)
+			(xy 185.42 66.04) (xy 186.69 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "87723d42-a69a-4cc4-bc28-4a28bf0b25f5")
+		(uuid "6ccf364f-2166-4e31-a4a7-e464b6291700")
 	)
 	(wire
 		(pts
-			(xy 43.18 125.73) (xy 45.72 125.73)
+			(xy 167.64 96.52) (xy 167.64 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "893dfd8d-644c-45e9-9154-bb6ab98154e6")
+		(uuid "6d70dce2-8db3-425c-8a50-773110198b28")
 	)
 	(wire
 		(pts
-			(xy 44.45 93.98) (xy 55.88 93.98)
+			(xy 161.29 41.91) (xy 200.66 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b2d56b3-c832-4198-99f4-a5f2aa52adb2")
+		(uuid "7068611e-b9f0-42a0-a76c-6b8ed4914609")
 	)
 	(wire
 		(pts
-			(xy 160.02 60.96) (xy 146.05 60.96)
+			(xy 55.88 88.9) (xy 68.58 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8de77fe6-9708-4019-8542-850166ea1203")
+		(uuid "719c83af-1c24-444a-ae0a-a5bdc53fcab1")
 	)
 	(wire
 		(pts
-			(xy 160.02 72.39) (xy 187.96 72.39)
+			(xy 104.14 91.44) (xy 115.57 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e171037-4919-4689-941d-29e8b3efb583")
+		(uuid "7335c5a3-0f9d-4f07-8952-8a52b0a0439d")
 	)
 	(wire
 		(pts
-			(xy 66.04 97.79) (xy 96.52 97.79)
+			(xy 104.14 110.49) (xy 67.31 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9109367c-24dc-421a-acf8-36335cd1a506")
+		(uuid "73ef4316-b7a6-4506-aa50-e923fccb5a93")
 	)
 	(wire
 		(pts
-			(xy 100.33 74.93) (xy 113.03 74.93)
+			(xy 106.68 96.52) (xy 106.68 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92b4ae3d-8e88-4978-95ee-f837b4404243")
+		(uuid "760f0304-2b97-438b-92dd-43158fbaa85a")
 	)
 	(wire
 		(pts
-			(xy 115.57 114.3) (xy 115.57 69.85)
+			(xy 107.95 116.84) (xy 99.06 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94fe7da0-c9cb-4b48-b096-b460028bc275")
+		(uuid "77cb0f30-8c81-4eee-bcef-5ae6a2ae4fe9")
 	)
 	(wire
 		(pts
-			(xy 52.07 80.01) (xy 88.9 80.01)
+			(xy 161.29 91.44) (xy 173.99 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97c0c462-7632-41f7-b5d6-054eefd4e3c2")
+		(uuid "79023b25-6cef-4535-b082-99a1b32cabb8")
 	)
 	(wire
 		(pts
-			(xy 67.31 82.55) (xy 69.85 82.55)
+			(xy 156.21 106.68) (xy 161.29 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bef66d5-2d47-4d31-b7f5-f0038baf83d7")
+		(uuid "7954af15-f46f-4be7-b113-b989b91f4e35")
 	)
 	(wire
 		(pts
-			(xy 132.08 134.62) (xy 132.08 77.47)
+			(xy 67.31 123.19) (xy 55.88 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c748ace-2e9e-416b-b1f7-5dd466571cf5")
+		(uuid "7b716582-01be-472b-ac7c-7311f3611903")
 	)
 	(wire
 		(pts
-			(xy 92.71 82.55) (xy 100.33 82.55)
+			(xy 107.95 99.06) (xy 115.57 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c8a9db1-7926-4e40-ad4e-45cc636a0170")
+		(uuid "7bca1692-32c9-4b3c-b114-c5d01db19478")
 	)
 	(wire
 		(pts
-			(xy 166.37 102.87) (xy 172.72 102.87)
+			(xy 194.31 66.04) (xy 199.39 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ce87728-4872-4a5d-ac1b-eedae0585565")
+		(uuid "7c83e19f-6bf9-422c-ad13-b27a53349d2f")
 	)
 	(wire
 		(pts
-			(xy 43.18 120.65) (xy 43.18 125.73)
+			(xy 78.74 148.59) (xy 110.49 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9daff44a-1c8f-4af4-a2fd-afb36516cdc2")
+		(uuid "852a82f4-15a3-4872-a984-a4e2cb407872")
 	)
 	(wire
 		(pts
-			(xy 100.33 80.01) (xy 110.49 80.01)
+			(xy 85.09 158.75) (xy 115.57 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e4b76f2-ff80-4484-b38c-62bf1ad5b04a")
+		(uuid "861b5643-e86a-4def-b315-61195db7fe25")
 	)
 	(wire
 		(pts
-			(xy 63.5 92.71) (xy 93.98 92.71)
+			(xy 86.36 49.53) (xy 88.9 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9eee3e8b-3735-4d3d-b327-9d8ee5727f72")
+		(uuid "8817d4c1-42a8-437b-a9af-1329e66af36c")
 	)
 	(wire
 		(pts
-			(xy 124.46 127) (xy 124.46 62.23)
+			(xy 67.31 173.99) (xy 69.85 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1398cc8-26d7-4e2d-bb6a-7cd4eab15fcf")
+		(uuid "88b16102-4a4f-4c74-b7d5-da69c847509c")
 	)
 	(wire
 		(pts
-			(xy 77.47 86.36) (xy 92.71 86.36)
+			(xy 72.39 49.53) (xy 78.74 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a34cceb0-4987-4b87-8b6e-ddef32fa5de1")
+		(uuid "89270eef-0e23-4114-ba53-0f9adeb9ecff")
 	)
 	(wire
 		(pts
-			(xy 59.69 87.63) (xy 57.15 87.63)
+			(xy 82.55 156.21) (xy 82.55 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3fbd5fd-25cc-4931-bf68-78c079752c92")
+		(uuid "8936dd16-7351-4278-99b4-ac68a2dd6275")
 	)
 	(wire
 		(pts
-			(xy 180.34 83.82) (xy 184.15 83.82)
+			(xy 87.63 91.44) (xy 90.17 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a57892cb-65c6-46db-a991-b3f5a1ceb5c1")
+		(uuid "8ae258ae-000c-41c4-8925-155a05e7a5ad")
 	)
 	(wire
 		(pts
-			(xy 172.72 64.77) (xy 177.8 64.77)
+			(xy 97.79 132.08) (xy 67.31 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a598a3af-d063-4cdb-96b8-5f9aea9875b9")
+		(uuid "8c2316fe-de95-4532-8ed7-3c22aaf336a0")
 	)
 	(wire
 		(pts
-			(xy 110.49 137.16) (xy 134.62 137.16)
+			(xy 57.15 168.91) (xy 59.69 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5a438a9-bce5-4b7b-9235-8a6bef0d9478")
+		(uuid "8c61177b-e469-4319-944e-eff159d93fee")
 	)
 	(wire
 		(pts
-			(xy 82.55 64.77) (xy 100.33 64.77)
+			(xy 80.01 151.13) (xy 111.76 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7ff6b38-3df4-49e2-a7ad-ea30e2542c41")
+		(uuid "8c7d14a7-c142-49a6-b8c5-8a64a18e0228")
 	)
 	(wire
 		(pts
-			(xy 57.15 74.93) (xy 57.15 72.39)
+			(xy 201.93 62.23) (xy 166.37 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8ed5c2d-63ce-492a-809c-3ab14d0f9199")
+		(uuid "8e3cda91-51d8-43b9-953a-21ce21c7f57a")
 	)
 	(wire
 		(pts
-			(xy 53.34 82.55) (xy 55.88 82.55)
+			(xy 99.06 86.36) (xy 115.57 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a916b5a1-d78e-430e-ab71-9232f12b3e6d")
+		(uuid "8f2ea6ec-0ae4-41cf-963d-f29a74a94c49")
 	)
 	(wire
 		(pts
-			(xy 100.33 64.77) (xy 118.11 64.77)
+			(xy 55.88 67.31) (xy 68.58 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa865fea-e463-47e2-9392-e50315085f40")
+		(uuid "8fd6c03b-c95c-46c5-97bd-b1d83d72f937")
 	)
 	(wire
 		(pts
-			(xy 63.5 111.76) (xy 66.04 111.76)
+			(xy 201.93 82.55) (xy 214.63 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac656c55-aabc-48c0-9808-9b903a2f686b")
+		(uuid "90c5d161-2a26-4488-b2d2-3b14ae859935")
 	)
 	(wire
 		(pts
-			(xy 146.05 64.77) (xy 151.13 64.77)
+			(xy 200.66 41.91) (xy 213.36 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ace76b5a-4bbd-4373-8229-9c7b484a3b2c")
+		(uuid "90e7bf76-db23-4995-abd0-ad9add0adea0")
 	)
 	(wire
 		(pts
-			(xy 158.75 74.93) (xy 156.21 74.93)
+			(xy 194.31 127) (xy 199.39 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2e5816e-7a9c-459b-b2cc-26e95c84f69b")
+		(uuid "9141135d-b1b8-41a7-8ef2-2ac6150a0744")
 	)
 	(wire
 		(pts
-			(xy 187.96 81.28) (xy 154.94 81.28)
+			(xy 172.72 109.22) (xy 161.29 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3141a3a-7b1d-4ad0-8fbb-94c6aee075f6")
+		(uuid "91d3db40-ff0c-49af-ba35-b86f01cf49dd")
 	)
 	(wire
 		(pts
-			(xy 44.45 74.93) (xy 57.15 74.93)
+			(xy 67.31 46.99) (xy 109.22 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4f9332d-64f6-4c73-9b3c-7091802eb01c")
+		(uuid "92008130-f348-487a-b568-b5a31c6965b6")
 	)
 	(wire
 		(pts
-			(xy 185.42 102.87) (xy 187.96 102.87)
+			(xy 177.8 96.52) (xy 167.64 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6b8dc93-e3f6-4a13-bbcb-eea38ff7e458")
+		(uuid "92fde690-26a2-49bd-8224-95185598c2f8")
 	)
 	(wire
 		(pts
-			(xy 134.62 137.16) (xy 134.62 90.17)
+			(xy 109.22 101.6) (xy 109.22 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b71531a3-bfcc-492d-b55b-0a1dd8e0454f")
+		(uuid "93a15602-fcd4-4dff-afac-2625643c09fb")
 	)
 	(wire
 		(pts
-			(xy 77.47 74.93) (xy 87.63 74.93)
+			(xy 55.88 91.44) (xy 64.77 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b82cdec6-abcf-4106-abff-2c2d3f90aec7")
+		(uuid "93dba305-2fac-45f8-95b1-7b10c2f062f6")
 	)
 	(wire
 		(pts
-			(xy 153.67 100.33) (xy 187.96 100.33)
+			(xy 214.63 64.77) (xy 205.74 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b923c803-9df8-46d9-a486-dbae77b6a018")
+		(uuid "95d7454e-ac9c-4928-a82f-bff554870945")
 	)
 	(wire
 		(pts
-			(xy 177.8 64.77) (xy 177.8 66.04)
+			(xy 68.58 88.9) (xy 68.58 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba1f1485-9e70-4ab3-8f32-dccbc4943211")
+		(uuid "9c03c414-548d-4b58-b85e-e936ca4ff118")
 	)
 	(wire
 		(pts
-			(xy 118.11 129.54) (xy 127 129.54)
+			(xy 105.41 113.03) (xy 96.52 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba7c75f8-bcee-48b8-b257-0e7e763153b5")
+		(uuid "9d9e0fd8-91f4-457d-bd4e-ee3e857412d2")
 	)
 	(wire
 		(pts
-			(xy 44.45 91.44) (xy 54.61 91.44)
+			(xy 115.57 96.52) (xy 125.73 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "baff87d0-7a31-4342-ae61-3ae0daa8d63a")
+		(uuid "9fab39ef-8d86-41b7-8a50-cd500a067947")
 	)
 	(wire
 		(pts
-			(xy 99.06 95.25) (xy 99.06 105.41)
+			(xy 57.15 168.91) (xy 57.15 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb9aed62-70e8-4482-adbd-e4d9401ad47e")
+		(uuid "a22a00be-b4bf-4524-bbc2-74212993425a")
 	)
 	(wire
 		(pts
-			(xy 77.47 62.23) (xy 100.33 62.23)
+			(xy 176.53 123.19) (xy 201.93 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd6cc5b9-9c90-4531-ba29-d7b4453836cf")
+		(uuid "a2a86108-954c-4952-b37b-aba362aa8acc")
 	)
 	(wire
 		(pts
-			(xy 149.86 90.17) (xy 146.05 90.17)
+			(xy 109.22 76.2) (xy 109.22 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bda20523-701f-4bdf-840d-7269a49af36b")
+		(uuid "a2e98c38-35b0-4283-ab8f-157543f13916")
 	)
 	(wire
 		(pts
-			(xy 120.65 114.3) (xy 120.65 59.69)
+			(xy 87.63 69.85) (xy 90.17 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf8e58b7-3cc2-4540-8a0b-56990e9c5cd9")
+		(uuid "a5754b39-08f6-4663-a797-77e06cf7dbd2")
 	)
 	(wire
 		(pts
-			(xy 146.05 77.47) (xy 152.4 77.47)
+			(xy 171.45 82.55) (xy 171.45 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfcab6bd-e8fc-4879-aa52-55cfd92c4ae7")
+		(uuid "a5d8b65e-080f-4abf-b016-4d31ceb0f024")
 	)
 	(wire
 		(pts
-			(xy 80.01 107.95) (xy 80.01 125.73)
+			(xy 115.57 91.44) (xy 128.27 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1ce6003-f94c-46b1-8967-5ac469426710")
+		(uuid "a635d817-bbbd-4dff-8e8f-ea4db50548ed")
 	)
 	(wire
 		(pts
-			(xy 83.82 67.31) (xy 100.33 67.31)
+			(xy 113.03 109.22) (xy 115.57 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2c03308-46e1-4608-b7e5-e7b55f34a2e3")
+		(uuid "a642a6f4-8cba-4930-96b8-3793a9590c91")
 	)
 	(wire
 		(pts
-			(xy 115.57 132.08) (xy 129.54 132.08)
+			(xy 107.95 99.06) (xy 107.95 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c35fb29a-5fa5-487d-81d5-fa7cad039803")
+		(uuid "a6abd8d1-902f-43bc-a727-59566ef6d250")
 	)
 	(wire
 		(pts
-			(xy 53.34 62.23) (xy 53.34 63.5)
+			(xy 99.06 134.62) (xy 96.52 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4376e51-7f8b-453d-ad79-82750e9b18e7")
+		(uuid "a7005a14-d2fc-4bfc-a161-f31f691e41dc")
 	)
 	(wire
 		(pts
-			(xy 53.34 111.76) (xy 55.88 111.76)
+			(xy 67.31 132.08) (xy 67.31 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5fad62e-4db3-4cb3-8d19-60e5f620991b")
+		(uuid "af4f5b96-7b11-4030-8764-91de1da2fa16")
 	)
 	(wire
 		(pts
-			(xy 184.15 74.93) (xy 184.15 76.2)
+			(xy 55.88 134.62) (xy 63.5 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7d3150e-7df4-4aba-a3c0-c006e98b487e")
+		(uuid "b1f6b629-8fda-40e7-9636-f06dd19f8c48")
 	)
 	(wire
 		(pts
-			(xy 154.94 81.28) (xy 154.94 72.39)
+			(xy 109.22 101.6) (xy 115.57 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8493cef-41f9-4875-bf6a-5678eb62d025")
+		(uuid "b2bea54d-66b0-45be-bf96-207788e2f710")
 	)
 	(wire
 		(pts
-			(xy 180.34 92.71) (xy 185.42 92.71)
+			(xy 200.66 33.02) (xy 200.66 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c950b30a-71a0-459f-a9cc-34807f9ce3e8")
+		(uuid "b53f50e3-2e52-40ef-9a94-fcbbe141a57a")
 	)
 	(wire
 		(pts
-			(xy 146.05 72.39) (xy 154.94 72.39)
+			(xy 201.93 93.98) (xy 201.93 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9d8699f-5411-409d-8e81-add45a0fdc83")
+		(uuid "b6615939-88d4-4b7c-9a00-cdb376dbf169")
 	)
 	(wire
 		(pts
-			(xy 120.65 127) (xy 124.46 127)
+			(xy 115.57 83.82) (xy 101.6 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb1d14eb-1fb8-4053-ae2c-cf6eb575b61d")
+		(uuid "b8242b3b-057e-41fa-9909-b15c222a7452")
 	)
 	(wire
 		(pts
-			(xy 158.75 64.77) (xy 165.1 64.77)
+			(xy 115.57 86.36) (xy 130.81 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd7d3806-eb21-4657-9354-0a4fbd8b66e5")
+		(uuid "bab46aab-b1c8-4c76-99f0-e2e2220fa55e")
 	)
 	(wire
 		(pts
-			(xy 93.98 85.09) (xy 100.33 85.09)
+			(xy 161.29 86.36) (xy 168.91 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf7a45aa-f79d-460d-a64c-bcfdede84ef1")
+		(uuid "bb91d1fe-99ae-4e2b-b5c4-6d2b58929dd5")
 	)
 	(wire
 		(pts
-			(xy 146.05 92.71) (xy 147.32 92.71)
+			(xy 177.8 127) (xy 172.72 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d02718fa-e142-420c-9a8f-fe7d212cce0b")
+		(uuid "bbe63b05-24c8-42b3-b7c7-7b663a348dcf")
 	)
 	(wire
 		(pts
-			(xy 156.21 74.93) (xy 156.21 69.85)
+			(xy 176.53 106.68) (xy 176.53 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0cbcbe4-8aea-4c1b-8e5d-37f3163c1e05")
+		(uuid "bbfa2ac0-c0b3-4be0-a910-32b0185ffe48")
 	)
 	(wire
 		(pts
-			(xy 160.02 73.66) (xy 157.48 73.66)
+			(xy 73.66 69.85) (xy 80.01 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d15ffd88-8905-46e7-9058-4e522941ab09")
+		(uuid "be740b52-9366-48eb-9bb9-1f6a94cadd56")
 	)
 	(wire
 		(pts
-			(xy 90.17 77.47) (xy 90.17 82.55)
+			(xy 200.66 33.02) (xy 213.36 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d23118d7-274e-4bbe-b276-1b1a70075434")
+		(uuid "bf403fb2-1694-4ee5-9bdc-d70b6e830686")
 	)
 	(wire
 		(pts
-			(xy 53.34 106.68) (xy 55.88 106.68)
+			(xy 201.93 62.23) (xy 214.63 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d81d52e1-ee75-47f2-8baf-7686df66d437")
+		(uuid "c051d3cc-1c29-478b-9610-bed60addde27")
 	)
 	(wire
 		(pts
-			(xy 184.15 83.82) (xy 187.96 83.82)
+			(xy 201.93 114.3) (xy 201.93 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d86b52ab-727c-4a9b-92d7-8a0467aaaedc")
+		(uuid "c18598ca-6426-4da7-8fb9-64d9e4399504")
 	)
 	(wire
 		(pts
-			(xy 110.49 127) (xy 110.49 137.16)
+			(xy 77.47 154.94) (xy 77.47 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8a80a49-719b-4ecb-833a-58b154b3df60")
+		(uuid "c239a10c-4dcb-47fd-9b13-dc7e343ee30a")
 	)
 	(wire
 		(pts
-			(xy 153.67 85.09) (xy 152.4 85.09)
+			(xy 81.28 153.67) (xy 81.28 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db26a600-74ea-478f-a9e1-b365ed3c1391")
+		(uuid "c3b681af-0bfc-4ae9-a24f-091bc8df6b6d")
 	)
 	(wire
 		(pts
-			(xy 153.67 90.17) (xy 153.67 85.09)
+			(xy 97.79 91.44) (xy 100.33 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc99b459-7300-4f21-8498-13ed340870cc")
+		(uuid "c5443570-fbec-4b22-bb2e-f9aec276747d")
 	)
 	(wire
 		(pts
-			(xy 57.15 87.63) (xy 57.15 90.17)
+			(xy 57.15 165.1) (xy 59.69 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd0ca661-201a-4152-b9dd-3edcad8db45b")
+		(uuid "c5a12c3b-62a1-409c-8340-7d534e6b6cac")
 	)
 	(wire
 		(pts
-			(xy 67.31 100.33) (xy 97.79 100.33)
+			(xy 78.74 160.02) (xy 77.47 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ddcbecab-a360-4e8d-b243-a550d10b5a79")
+		(uuid "c67e99d7-ee6c-43a1-b106-255c9f6e4189")
 	)
 	(wire
 		(pts
-			(xy 44.45 77.47) (xy 58.42 77.47)
+			(xy 99.06 116.84) (xy 99.06 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfcfce52-e652-4e15-9475-a74b84743c86")
+		(uuid "c864584a-1941-43d4-b42d-321b3ec5a810")
 	)
 	(wire
 		(pts
-			(xy 166.37 74.93) (xy 172.72 74.93)
+			(xy 201.93 53.34) (xy 201.93 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e200bf26-c332-48b6-b34b-e5e95a07f87e")
+		(uuid "cb1287e8-ef19-43f3-b471-fecfa1132dde")
 	)
 	(wire
 		(pts
-			(xy 53.34 62.23) (xy 59.69 62.23)
+			(xy 99.06 86.36) (xy 99.06 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e24d58e6-59a8-4df5-abae-8229e0c3beb4")
+		(uuid "cc6e86a9-717c-42c2-8a37-b6c33ffebf65")
 	)
 	(wire
 		(pts
-			(xy 93.98 92.71) (xy 93.98 85.09)
+			(xy 115.57 76.2) (xy 109.22 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2a191c7-2a86-4e49-8f3f-ae94fc69aca7")
+		(uuid "cecab33c-327d-434d-82b2-d8fae70e2311")
 	)
 	(wire
 		(pts
-			(xy 151.13 96.52) (xy 147.32 96.52)
+			(xy 161.29 93.98) (xy 201.93 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e41eaffa-e0eb-441e-a494-5f9ef231dd9e")
+		(uuid "cf4312b1-7a7f-4079-9845-4a621bcdccf0")
 	)
 	(wire
 		(pts
-			(xy 185.42 92.71) (xy 185.42 93.98)
+			(xy 201.93 114.3) (xy 214.63 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4e96dcb-d537-4ac7-a6dd-2a119dd4f3c3")
+		(uuid "cf98b47b-ead8-4d9c-a6fc-a95e955a0b2a")
 	)
 	(wire
 		(pts
-			(xy 118.11 114.3) (xy 118.11 64.77)
+			(xy 115.57 111.76) (xy 114.3 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4ffde1c-5d51-40d3-b75e-57f9d01c477d")
+		(uuid "cfe99e2e-695c-43d9-9f00-8a0aa827bca0")
 	)
 	(wire
 		(pts
-			(xy 44.45 59.69) (xy 100.33 59.69)
+			(xy 124.46 166.37) (xy 132.08 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5fd454d-17d7-446f-911f-78962fc25ed4")
+		(uuid "d0d100bd-02a6-4644-b6f5-723ff07df661")
 	)
 	(wire
 		(pts
-			(xy 153.67 90.17) (xy 187.96 90.17)
+			(xy 57.15 185.42) (xy 57.15 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e6185725-6e4e-4efb-ad50-28b4ca0df7d0")
+		(uuid "d3f2f0bb-072b-4108-9a87-add974aa2712")
 	)
 	(wire
 		(pts
-			(xy 110.49 114.3) (xy 110.49 80.01)
+			(xy 201.93 92.71) (xy 214.63 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e644b5bf-7379-4c98-bcf5-d8211788ccc6")
+		(uuid "d58f11c1-34b0-47d1-945e-1383a0c882b4")
 	)
 	(wire
 		(pts
-			(xy 82.55 67.31) (xy 82.55 64.77)
+			(xy 115.57 158.75) (xy 115.57 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8514103-17c7-4ac5-8654-8d739373b109")
+		(uuid "d701c259-4bee-483c-adcd-452a23d0e613")
 	)
 	(wire
 		(pts
-			(xy 100.33 69.85) (xy 115.57 69.85)
+			(xy 115.57 76.2) (xy 135.89 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8ced1c3-c7d6-4b3f-80e2-042f3c6e553b")
+		(uuid "d849c154-fdc7-41a2-b02e-64add46276cb")
 	)
 	(wire
 		(pts
-			(xy 153.67 83.82) (xy 153.67 74.93)
+			(xy 99.06 88.9) (xy 68.58 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e90b8252-458c-435e-9317-b3afb91da52e")
+		(uuid "d8ac4f87-7fed-4619-98f4-62d9f86a54da")
 	)
 	(wire
 		(pts
-			(xy 43.18 132.08) (xy 43.18 125.73)
+			(xy 67.31 46.99) (xy 67.31 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e998195d-46ba-4e43-8533-3f5ca5dc3a17")
+		(uuid "d8b15e37-4bfd-4bac-93e4-09d1926a7fa1")
 	)
 	(wire
 		(pts
-			(xy 80.01 107.95) (xy 100.33 107.95)
+			(xy 161.29 106.68) (xy 176.53 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9f5b6be-fd4b-4ed7-937c-1ecaa947c0b1")
+		(uuid "d93543db-41ed-46f7-a0f5-9af657908a1b")
 	)
 	(wire
 		(pts
-			(xy 127 67.31) (xy 146.05 67.31)
+			(xy 166.37 83.82) (xy 161.29 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eceee7c9-2a5d-4429-b40a-67459e005968")
+		(uuid "e68d4d12-a6ce-4cbc-b2fd-ef00fe8330c2")
 	)
 	(wire
 		(pts
-			(xy 87.63 74.93) (xy 87.63 72.39)
+			(xy 100.33 88.9) (xy 100.33 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed81a2b3-be5c-411d-bd54-0474b4e7a978")
+		(uuid "e7175e1d-a358-4135-883d-df26d49c0e4e")
 	)
 	(wire
 		(pts
-			(xy 67.31 69.85) (xy 69.85 69.85)
+			(xy 110.49 148.59) (xy 110.49 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef281153-9f13-4577-af10-bc4447bbab27")
+		(uuid "e81d7510-b252-4d63-9da8-0bfeebf86aa8")
 	)
 	(wire
 		(pts
-			(xy 185.42 55.88) (xy 185.42 62.23)
+			(xy 101.6 69.85) (xy 97.79 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efd8977c-ee8b-4e35-853c-ce95cbd751ee")
+		(uuid "e894e3e3-28d6-4cc1-aad3-fd93674c7e86")
 	)
 	(wire
 		(pts
-			(xy 129.54 132.08) (xy 129.54 72.39)
+			(xy 55.88 110.49) (xy 67.31 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0ba9721-9225-4576-9011-a25fdfe82e90")
+		(uuid "e8e3f297-201d-4ddc-bcf4-f1bd90d9787c")
 	)
 	(wire
 		(pts
-			(xy 166.37 83.82) (xy 172.72 83.82)
+			(xy 101.6 83.82) (xy 101.6 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2bd5ee6-9fce-4af1-b4d9-aafd6cfed059")
+		(uuid "e9f69ed8-3262-4dc6-9d64-0942cd03acd1")
 	)
 	(wire
 		(pts
-			(xy 66.04 111.76) (xy 66.04 97.79)
+			(xy 106.68 78.74) (xy 115.57 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3e6e2a8-9d73-49b7-a00e-cc402f8a0215")
+		(uuid "eb60aa45-981b-4a97-9516-8c153f6c7eeb")
 	)
 	(wire
 		(pts
-			(xy 87.63 72.39) (xy 100.33 72.39)
+			(xy 96.52 49.53) (xy 106.68 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f44bf6a8-c90a-45d1-9a4c-b7dcf3e0fd75")
+		(uuid "eb610cad-85d4-4dc7-8402-c71944e8e4ad")
 	)
 	(wire
 		(pts
-			(xy 77.47 69.85) (xy 83.82 69.85)
+			(xy 193.04 45.72) (xy 198.12 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f55018be-e113-4528-8831-f8c860c30ba1")
+		(uuid "ee383678-87e0-48b2-98f5-c42bf3f57286")
 	)
 	(wire
 		(pts
-			(xy 153.67 74.93) (xy 146.05 74.93)
+			(xy 72.39 134.62) (xy 78.74 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f60f159d-f638-4c83-b9fc-cccc9600114d")
+		(uuid "f104c4ef-e919-4751-938b-c60d1a538a50")
 	)
 	(wire
 		(pts
-			(xy 180.34 74.93) (xy 184.15 74.93)
+			(xy 104.14 67.31) (xy 68.58 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f76a301f-84ac-499a-8c6a-d91ea8f4d510")
+		(uuid "f1bd4ec0-4ec8-4128-b01a-6e4997fb9aa4")
 	)
 	(wire
 		(pts
-			(xy 44.45 86.36) (xy 53.34 86.36)
+			(xy 57.15 160.02) (xy 57.15 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7c3e752-fa3f-405d-a618-a3a0bf157d3f")
+		(uuid "f2256aee-9725-47a7-83b5-f0161d06f222")
 	)
 	(wire
 		(pts
-			(xy 132.08 77.47) (xy 146.05 77.47)
+			(xy 201.93 92.71) (xy 201.93 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f81b46fe-dd2e-43d3-b662-081a2b70de3a")
+		(uuid "f3f4d1ac-553b-4bea-89fb-ac645701ec0c")
 	)
 	(wire
 		(pts
-			(xy 95.25 95.25) (xy 95.25 87.63)
+			(xy 106.68 49.53) (xy 106.68 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fadb29da-fe05-4c49-a482-72854f32302c")
+		(uuid "f3fa65df-dae7-4d6d-b352-cb89544ff505")
 	)
 	(wire
 		(pts
-			(xy 43.18 115.57) (xy 45.72 115.57)
+			(xy 59.69 154.94) (xy 57.15 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb3022cc-6ee7-4875-8c67-6d1a53ca53c4")
+		(uuid "f6d64e30-80cf-467a-b03e-31c9efa97625")
 	)
 	(wire
 		(pts
-			(xy 157.48 67.31) (xy 160.02 67.31)
+			(xy 173.99 91.44) (xy 173.99 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "febc0d1a-0ad3-4a71-a9c5-1cb1ae460850")
+		(uuid "f7147ee5-829d-4fba-8695-9c3bcc9593b8")
 	)
 	(wire
 		(pts
-			(xy 53.34 86.36) (xy 53.34 82.55)
+			(xy 161.29 78.74) (xy 161.29 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffb6dcda-3cf3-4214-af11-2f754b6fba77")
+		(uuid "f98bc7c2-2ecc-4c9e-bb4c-146333871649")
 	)
 	(wire
 		(pts
-			(xy 43.18 101.6) (xy 43.18 106.68)
+			(xy 171.45 88.9) (xy 161.29 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffc2a511-940d-4c3c-a67b-3bcef32ba0bc")
+		(uuid "fa8210ea-c07a-4f8e-8661-426c1a2dc483")
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 162.56 102.87 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00bce412-984d-4adf-b6de-ea4a319c4f7e")
-		(property "Reference" "R9"
-			(at 162.306 100.584 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(label "gpio0"
+		(at 142.24 153.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "R"
-			(at 162.56 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "06138633-b0f9-4fa3-8f2f-d65ad8302f5d")
+	)
+	(label "gpio16"
+		(at 142.24 166.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 162.56 101.092 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "0805fba0-5cf9-4f8e-8339-35be365e50c0")
+	)
+	(label "gpio4"
+		(at 137.16 153.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Datasheet" "~"
-			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "135058c1-1cce-4ea5-88bb-6083f0bab84b")
+	)
+	(label "CLK"
+		(at 132.08 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Description" "Resistor"
-			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "3d7ee08a-aca6-4226-9c84-6ccca806d04e")
+	)
+	(label "gpio0"
+		(at 59.69 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(pin "2"
-			(uuid "bb6f1187-595f-44d4-8e59-45fbb6cc3e5d")
-		)
-		(pin "1"
-			(uuid "34cdc717-f8f8-4414-8393-f9288aad1bfc")
-		)
-		(instances
-			(project "elec-thruster-control-board"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "R9")
-					(unit 1)
-				)
+		(uuid "4e8f9c04-ab5e-4f34-8848-9b90f3f6c285")
+	)
+	(label "gpio20"
+		(at 137.16 166.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
+		(uuid "54c30f3a-7fad-4c63-bf80-d11dd27b091e")
+	)
+	(label "gpio6"
+		(at 59.69 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "563e6276-881e-47a9-974b-46232099ff56")
+	)
+	(label "gpio2"
+		(at 60.96 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "632e15cc-056b-4c57-8716-cd54d8e1562d")
+	)
+	(label "gpio22"
+		(at 201.93 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7eb24445-4705-4561-a648-903a2d3321ef")
+	)
+	(label "gpio6"
+		(at 134.62 153.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "860d0ee9-6008-4a14-8c81-3e94801848bd")
+	)
+	(label "gpio22"
+		(at 134.62 166.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a976bcde-51d7-454e-b056-fb1cfa38bd8a")
+	)
+	(label "gpio9_pwm9"
+		(at 201.93 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa1feec7-235d-4b7d-b11a-d825dca14a0a")
+	)
+	(label "gpio20"
+		(at 201.93 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab3ee4f1-200d-484b-86e7-99d93905a2fe")
+	)
+	(label "gpio8"
+		(at 59.69 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af20bcf7-8747-4916-8996-42f55b9c7b21")
+	)
+	(label "gpio4"
+		(at 60.96 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1eef832-6e5f-4c37-9e53-97d629f8569b")
+	)
+	(label "gpio16"
+		(at 200.66 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5f7659f-81ad-4322-825a-600a17c72868")
+	)
+	(label "gpio18"
+		(at 201.93 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0d80bc3-765e-4cbb-bf66-803bbda693a8")
+	)
+	(label "gpio2"
+		(at 139.7 153.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1dde75e-1c4c-457a-a1a1-f9bcc28da96c")
+	)
+	(label "gpio18"
+		(at 139.7 166.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc2f2e47-85af-42bd-835f-4d32c54d718e")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 39.37 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00d94e23-f3c9-4727-a605-828115e452c3")
-		(property "Reference" "J4"
-			(at 39.37 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 39.37 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
-			(at 39.37 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43188a61-c229-4468-be70-1fd1f19e7765")
-		)
-		(pin "2"
-			(uuid "132ce290-f2bd-4cff-8483-cc47d8ee995a")
-		)
-		(instances
-			(project "Protoboard replacement"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 193.04 64.77 0)
+		(at 218.44 44.45 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4168,7 +4142,7 @@
 		(dnp no)
 		(uuid "018d71f7-0027-4e49-921d-3d0bda5fc2d1")
 		(property "Reference" "J11"
-			(at 192.405 57.15 0)
+			(at 217.805 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,15 +4150,15 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 191.262 69.088 0)
+			(at 216.662 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
-			(at 193.04 64.77 0)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 218.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +4167,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 64.77 0)
+			(at 218.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,7 +4176,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 193.04 64.77 0)
+			(at 218.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4217,7 +4191,7 @@
 			(uuid "9fe3b5ea-fa9f-4c9c-a12a-eed2735314ad")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "J11")
 					(unit 1)
@@ -4226,85 +4200,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 63.5 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03187bd6-9c6b-42c1-a7c4-4ab9d3034737")
-		(property "Reference" "D2"
-			(at 61.9125 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 61.9125 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 63.5 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 63.5 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 63.5 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7b0ccb59-ee25-4f21-a21e-b2cfc8975db8")
-		)
-		(pin "1"
-			(uuid "85753495-2d95-472e-8c9c-9f3130c050f8")
-		)
-		(instances
-			(project "Protoboard replacement"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 43.18 132.08 0)
+		(at 57.15 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4313,7 +4210,7 @@
 		(fields_autoplaced yes)
 		(uuid "0721df46-3d32-481f-88ae-12de514c0d06")
 		(property "Reference" "#PWR04"
-			(at 43.18 138.43 0)
+			(at 57.15 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,7 +4219,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 137.16 0)
+			(at 57.15 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4330,7 +4227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 132.08 0)
+			(at 57.15 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4339,7 +4236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 132.08 0)
+			(at 57.15 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4348,7 +4245,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 132.08 0)
+			(at 57.15 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +4267,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 115.57 90)
+		(at 73.66 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4379,7 +4276,7 @@
 		(fields_autoplaced yes)
 		(uuid "12679c1d-5a6e-48db-8b6f-669067653aa3")
 		(property "Reference" "R16"
-			(at 59.69 109.22 90)
+			(at 73.66 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +4284,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 59.69 111.76 90)
+			(at 73.66 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +4292,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 59.69 117.348 90)
+			(at 73.66 170.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,7 +4301,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 115.57 0)
+			(at 73.66 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4310,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 115.57 0)
+			(at 73.66 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,7 +4325,7 @@
 			(uuid "3a2a664d-fed1-4550-9ee0-d1497e23f521")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "R16")
 					(unit 1)
@@ -4438,7 +4335,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 154.94 64.77 270)
+		(at 180.34 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4446,7 +4343,7 @@
 		(dnp no)
 		(uuid "1369b0d4-bdf6-45dc-830e-e2ab79c48482")
 		(property "Reference" "R10"
-			(at 154.686 62.484 90)
+			(at 180.086 43.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +4351,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 154.94 67.31 90)
+			(at 180.34 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +4359,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 154.94 62.992 90)
+			(at 180.34 43.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,7 +4368,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 64.77 0)
+			(at 180.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4480,7 +4377,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 154.94 64.77 0)
+			(at 180.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,7 +4392,7 @@
 			(uuid "2e4086f5-3207-44b7-9f3c-1d49ddcb75cb")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "R10")
 					(unit 1)
@@ -4504,85 +4401,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 63.5 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16e72d09-381c-4dd9-bd22-59973f9e32de")
-		(property "Reference" "D3"
-			(at 61.9125 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 61.9125 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 63.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 63.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 63.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a3879fc2-2586-4502-a58a-96281a58361a")
-		)
-		(pin "1"
-			(uuid "258adb5c-c9a4-4507-bbac-f7c032f4f002")
-		)
-		(instances
-			(project "Protoboard replacement"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 59.69 111.76 90)
+		(at 73.66 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4591,7 +4411,7 @@
 		(fields_autoplaced yes)
 		(uuid "197807de-7e15-4df9-8e20-63fd4f7963ae")
 		(property "Reference" "R15"
-			(at 59.69 105.41 90)
+			(at 73.66 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4599,7 +4419,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 59.69 107.95 90)
+			(at 73.66 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4427,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 59.69 113.538 90)
+			(at 73.66 166.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4436,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 111.76 0)
+			(at 73.66 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +4445,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 111.76 0)
+			(at 73.66 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +4460,7 @@
 			(uuid "8294d6a4-3e85-41cb-a511-cf308b1a9822")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "R15")
 					(unit 1)
@@ -4649,33 +4469,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 39.37 62.23 180)
+		(lib_id "Device:LED")
+		(at 190.5 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ed4c181-ae5c-48fe-ba8a-efbc5f22787d")
-		(property "Reference" "J2"
-			(at 39.37 53.34 0)
+		(uuid "1cb52903-75e7-4a98-8062-72c8c81a4c43")
+		(property "Reference" "D6"
+			(at 194.818 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 39.37 55.88 0)
+		(property "Value" "LED"
+			(at 194.818 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
-			(at 39.37 62.23 0)
+		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+			(at 190.5 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +4503,149 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 62.23 0)
+			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d22dc70a-1fd3-4ace-84bf-b8d1892a372b")
+		)
+		(pin "1"
+			(uuid "3983211a-2d24-4971-84b9-232a80a49c87")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e0a4d50-885b-44f3-92bb-a3141dfcf817")
+		(property "Reference" "#PWR019"
+			(at 205.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "169c1022-f6f8-4545-81c5-14f182c465d8")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 50.8 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ed4c181-ae5c-48fe-ba8a-efbc5f22787d")
+		(property "Reference" "J2"
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 50.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4693,7 +4654,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 62.23 0)
+			(at 50.8 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,7 +4669,7 @@
 			(uuid "1a91709a-f86c-47ee-a417-8f3044215a67")
 		)
 		(instances
-			(project ""
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "J2")
 					(unit 1)
@@ -4717,8 +4678,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 92.71 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21a86462-18cc-4710-862d-1dd1c6c6d35e")
+		(property "Reference" "R5"
+			(at 92.71 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 92.71 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 92.71 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 92.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3222cb8-73d6-432c-a95a-847ea5daa7fc")
+		)
+		(pin "1"
+			(uuid "79d6293f-a648-4c6e-bffa-d57ff1816816")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 53.34 63.5 0)
+		(at 63.5 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4727,7 +4756,7 @@
 		(fields_autoplaced yes)
 		(uuid "25c65248-2bef-4ac8-967c-5e5153ea9d82")
 		(property "Reference" "#PWR01"
-			(at 53.34 69.85 0)
+			(at 63.5 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +4765,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 68.58 0)
+			(at 63.5 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +4773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 63.5 0)
+			(at 63.5 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 63.5 0)
+			(at 63.5 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +4791,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 63.5 0)
+			(at 63.5 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4774,7 +4803,7 @@
 			(uuid "7c921978-7259-49ac-83b4-50c901672761")
 		)
 		(instances
-			(project ""
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "#PWR01")
 					(unit 1)
@@ -4784,16 +4813,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 71.12 0)
+		(at 63.5 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32dc9a0e-dd3d-417f-8cbd-332e8fbb5c91")
-		(property "Reference" "#PWR05"
-			(at 53.34 77.47 0)
+		(uuid "35913c7b-0d1d-40e5-9228-0c71c43f2dc4")
+		(property "Reference" "#PWR03"
+			(at 63.5 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,7 +4830,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 76.2 0)
+			(at 63.5 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4810,7 +4838,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 71.12 0)
+			(at 63.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,7 +4847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 71.12 0)
+			(at 63.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,7 +4856,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 71.12 0)
+			(at 63.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,12 +4865,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2eed18e8-6b51-410e-9c44-d7e7f5a54d1a")
+			(uuid "cac02799-033a-4feb-bbfd-3ad6a4abfbb6")
 		)
 		(instances
 			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4850,7 +4878,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Module:RaspberryPi_Pico")
-		(at 123.19 74.93 0)
+		(at 138.43 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4858,7 +4886,7 @@
 		(dnp no)
 		(uuid "3708a6e1-6a61-43d6-b336-5f67ec303bac")
 		(property "Reference" "A1"
-			(at 125.3333 109.22 0)
+			(at 140.5733 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,7 +4895,7 @@
 			)
 		)
 		(property "Value" "RaspberryPi_Pico"
-			(at 125.3333 111.76 0)
+			(at 140.5733 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4876,7 +4904,7 @@
 			)
 		)
 		(property "Footprint" "Module:RaspberryPi_Pico_Common_THT"
-			(at 123.19 121.92 0)
+			(at 138.43 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4885,7 +4913,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
-			(at 123.19 124.46 0)
+			(at 138.43 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4894,7 +4922,7 @@
 			)
 		)
 		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
-			(at 123.19 127 0)
+			(at 138.43 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +5051,7 @@
 			(uuid "68f99bd3-118f-4a86-87ab-565b314c94b2")
 		)
 		(instances
-			(project ""
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "A1")
 					(unit 1)
@@ -5033,16 +5061,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 63.5 87.63 0)
+		(at 190.5 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "407bc82b-afce-40c1-b934-e47ce8301901")
-		(property "Reference" "D5"
-			(at 61.9125 81.28 0)
+		(uuid "395bd778-ec35-4c13-a78a-5cd14086587a")
+		(property "Reference" "D7"
+			(at 194.818 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,7 +5077,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 61.9125 83.82 0)
+			(at 194.818 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +5085,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 63.5 87.63 0)
+			(at 190.5 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5094,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 87.63 0)
+			(at 190.5 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +5103,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 63.5 87.63 0)
+			(at 190.5 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +5112,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 63.5 87.63 0)
+			(at 190.5 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,15 +5121,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "efb549e0-1bba-48e4-b6d9-3c043fddd06c")
+			(uuid "7aa09c12-b41f-4366-b690-89ee0bf37c4f")
 		)
 		(pin "1"
-			(uuid "632e2c9b-9514-4b1f-a80e-673be473af36")
+			(uuid "55bf3a4c-a342-4ed2-8597-b7ad266774c7")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "D5")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5110,7 +5137,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 49.53 101.6 0)
+		(at 63.5 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5119,7 +5146,7 @@
 		(fields_autoplaced yes)
 		(uuid "40f02aa1-0393-4263-ad13-355fb36fb780")
 		(property "Reference" "D13"
-			(at 47.9425 95.25 0)
+			(at 61.9125 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +5154,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 47.9425 97.79 0)
+			(at 61.9125 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +5162,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 49.53 101.6 0)
+			(at 63.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +5171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 101.6 0)
+			(at 63.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,7 +5180,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 49.53 101.6 0)
+			(at 63.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5189,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 49.53 101.6 0)
+			(at 63.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,7 +5204,7 @@
 			(uuid "eaf19aa1-22b1-4e84-96ee-07f5738f2c4c")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "D13")
 					(unit 1)
@@ -5186,16 +5213,147 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 176.53 102.87 180)
+		(lib_id "power:GND")
+		(at 205.74 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "505a03f5-9071-404d-86bf-009a75afb670")
+		(uuid "419637e8-65a9-4ee7-9e67-ff9592fb8fa6")
+		(property "Reference" "#PWR018"
+			(at 205.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2f0547b-64f4-439f-bbbf-341cb914fb2b")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43a73365-4607-4e83-9737-4c0d10ab2186")
+		(property "Reference" "#PWR02"
+			(at 63.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cd17b2b-63a0-4033-93d5-27cfe5951e98")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 190.5 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43d44a5c-b208-4cd1-8ea2-004f2c2c0897")
 		(property "Reference" "D9"
-			(at 180.848 106.68 0)
+			(at 194.818 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5361,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 180.848 104.14 0)
+			(at 194.818 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5211,7 +5369,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 176.53 102.87 0)
+			(at 190.5 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,7 +5378,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 102.87 0)
+			(at 190.5 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5229,7 +5387,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 176.53 102.87 0)
+			(at 190.5 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5238,7 +5396,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 176.53 102.87 0)
+			(at 190.5 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5247,10 +5405,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3afcdf0e-1b30-4de7-b439-f8e9292c156f")
+			(uuid "8beede35-24cd-47e5-b26b-17908d4dc6e2")
 		)
 		(pin "1"
-			(uuid "a1fb4c06-a583-40ab-b899-d45fe7c15b20")
+			(uuid "30a045b3-18b5-44bf-b18b-143f377f9e2d")
 		)
 		(instances
 			(project "elec-thruster-control-board"
@@ -5262,33 +5420,100 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 73.66 74.93 90)
+		(lib_id "power:GND")
+		(at 64.77 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46f7c72a-07fa-49ac-92c7-b8017026b05b")
+		(property "Reference" "#PWR05"
+			(at 64.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59c03e8a-4104-4708-9a02-b5218afe2978")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 218.44 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "51d160ae-817e-4eee-b8d1-c66672d23058")
-		(property "Reference" "R3"
-			(at 73.66 68.58 90)
+		(uuid "4e0257cd-b4e5-4d6b-8578-ccb8063b7768")
+		(property "Reference" "J17"
+			(at 220.98 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 73.66 71.12 90)
+		(property "Value" "Conn_01x01"
+			(at 220.98 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 73.66 76.708 90)
+		(property "Footprint" ""
+			(at 218.44 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5297,7 +5522,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 74.93 0)
+			(at 218.44 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,25 +5530,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 73.66 74.93 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 218.44 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "49556668-7f56-4862-99ad-a001efccb452")
 		)
 		(pin "1"
-			(uuid "852b6991-d603-45db-af3e-d1f93b63e6f1")
+			(uuid "36635731-e546-4890-aefb-d10121a2fcee")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "R3")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -5331,15 +5553,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 83.82 270)
+		(at 92.71 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5d191548-30e8-4865-b6cc-926c7cf5a042")
-		(property "Reference" "R7"
-			(at 162.306 81.534 90)
+		(fields_autoplaced yes)
+		(uuid "4fee4035-a8f4-4ed9-b806-8d6aa5fabd45")
+		(property "Reference" "R4"
+			(at 92.71 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5347,7 +5570,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 162.56 86.36 90)
+			(at 92.71 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5578,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 162.56 82.042 90)
+			(at 92.71 114.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +5587,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 83.82 0)
+			(at 92.71 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +5596,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 83.82 0)
+			(at 92.71 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,15 +5605,80 @@
 			)
 		)
 		(pin "2"
-			(uuid "a5a93c87-1ddb-4413-83bc-12152f5496c2")
+			(uuid "94b0470c-44a4-4eb0-b5a0-ee9494fafed4")
 		)
 		(pin "1"
-			(uuid "891ad6c3-d754-4536-8760-fcbd08a46d34")
+			(uuid "6e2f1e42-a1fa-4bbb-9814-593e9a6eb5b0")
 		)
 		(instances
 			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "R7")
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50e59f08-1d95-4b08-9095-9d3c9e9556cd")
+		(property "Reference" "#PWR021"
+			(at 205.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac4f201e-8753-4ead-a752-c0157b738ac1")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5398,7 +5686,150 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 62.23 90)
+		(at 181.61 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "568347a8-5657-4000-8690-ec7e72524032")
+		(property "Reference" "R9"
+			(at 181.356 124.714 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 181.61 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 181.61 125.222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc564ead-556b-483f-9f30-296c12394e44")
+		)
+		(pin "1"
+			(uuid "30090396-ca8e-4d60-8058-825b11ea15cf")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 190.5 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56ce620d-aead-4bd8-8ec8-0a802b345c1f")
+		(property "Reference" "D8"
+			(at 194.818 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 194.818 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94b530cd-8c70-4f5f-9e34-e167dcc815cb")
+		)
+		(pin "1"
+			(uuid "ab47a2c0-41b2-4cb7-8ceb-715a82346e9c")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 92.71 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5407,7 +5838,7 @@
 		(fields_autoplaced yes)
 		(uuid "61df2ea4-1984-4eb0-a948-6e9e0f6cd189")
 		(property "Reference" "R1"
-			(at 73.66 55.88 90)
+			(at 92.71 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5415,7 +5846,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 73.66 58.42 90)
+			(at 92.71 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5423,7 +5854,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 73.66 64.008 90)
+			(at 92.71 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5863,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 62.23 0)
+			(at 92.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,7 +5872,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 62.23 0)
+			(at 92.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,7 +5887,7 @@
 			(uuid "5beaa41b-4e89-4564-85e0-2eec0b1fe019")
 		)
 		(instances
-			(project ""
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "R1")
 					(unit 1)
@@ -5465,33 +5896,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 49.53 120.65 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 219.71 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6621c13d-52a4-4f0f-9804-ab34963eea2e")
-		(property "Reference" "D12"
-			(at 47.9425 114.3 0)
+		(uuid "61f31574-5542-470a-a605-80689b28709d")
+		(property "Reference" "J1"
+			(at 222.25 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 47.9425 116.84 0)
+		(property "Value" "Conn_01x01"
+			(at 222.25 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 49.53 120.65 0)
+		(property "Footprint" ""
+			(at 219.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,7 +5933,139 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 120.65 0)
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac1f44df-89e7-47a3-ac43-d8d8c98204e4")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 166.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "652c24c9-392c-4026-9abc-5b3efdb43acc")
+		(property "Reference" "#PWR022"
+			(at 118.11 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8660f949-c398-4e16-892c-1ee5ed142a99")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 63.5 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6621c13d-52a4-4f0f-9804-ab34963eea2e")
+		(property "Reference" "D12"
+			(at 61.9125 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 61.9125 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+			(at 63.5 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5509,7 +6074,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 49.53 120.65 0)
+			(at 63.5 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +6083,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 49.53 120.65 0)
+			(at 63.5 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +6098,7 @@
 			(uuid "927c53dd-8e26-4c2b-b772-2f07ad33277e")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "D12")
 					(unit 1)
@@ -5542,8 +6107,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 50.8 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66580f09-d814-46a9-8e54-522715889851")
+		(property "Reference" "J6"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c42848f2-1f1f-40e8-9997-12444fbf1b2d")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Counter_Clockwise")
-		(at 115.57 119.38 270)
+		(at 137.16 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5551,7 +6181,7 @@
 		(dnp no)
 		(uuid "6bb8e137-a72c-43f5-8b52-a4ed369b53a6")
 		(property "Reference" "J13"
-			(at 123.19 119.3799 90)
+			(at 144.78 158.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,7 +6191,7 @@
 			)
 		)
 		(property "Value" "Conn_02x05_Counter_Clockwise"
-			(at 108.204 140.208 90)
+			(at 129.794 179.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5571,7 +6201,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PHD_B10B-PHDSS_2x05_P2.00mm_Vertical"
-			(at 115.57 119.38 0)
+			(at 137.16 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5580,7 +6210,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 119.38 0)
+			(at 137.16 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5589,7 +6219,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 119.38 0)
+			(at 137.16 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5628,7 +6258,7 @@
 			(uuid "1b042e38-d896-4d50-8e77-410b87d58f8e")
 		)
 		(instances
-			(project ""
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "J13")
 					(unit 1)
@@ -5638,15 +6268,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 76.2 0)
+		(at 72.39 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "706fa8aa-b196-4632-b1a2-c2139fd8a286")
-		(property "Reference" "#PWR08"
-			(at 184.15 82.55 0)
+		(fields_autoplaced yes)
+		(uuid "74906a32-91f1-49b2-84be-d0383c0d9c80")
+		(property "Reference" "#PWR012"
+			(at 72.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5655,7 +6286,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 80.01 0)
+			(at 72.39 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,7 +6294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 76.2 0)
+			(at 72.39 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5672,7 +6303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 76.2 0)
+			(at 72.39 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,7 +6312,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 76.2 0)
+			(at 72.39 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,80 +6321,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "da4aa473-8691-4afc-8a22-4ae692801e21")
+			(uuid "40eba18d-e3d3-41dd-a732-4e697e5fcd6d")
 		)
 		(instances
 			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 73.66 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "761275e6-f19f-49a8-8e60-8dfe4a3ac6f3")
-		(property "Reference" "R4"
-			(at 73.66 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 73.66 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 73.66 84.328 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b31bf49b-5b89-49bf-9e43-87e080adc291")
-		)
-		(pin "1"
-			(uuid "72d05cea-d313-4e8a-9de6-0b98bf97c015")
-		)
-		(instances
-			(project "Protoboard replacement"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "R4")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5771,7 +6334,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 66.04 0)
+		(at 198.12 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5779,7 +6342,7 @@
 		(dnp no)
 		(uuid "79e32763-dcb7-4662-9c49-91d866104ffa")
 		(property "Reference" "#PWR07"
-			(at 177.8 72.39 0)
+			(at 198.12 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5788,7 +6351,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 69.85 0)
+			(at 198.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5796,7 +6359,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 66.04 0)
+			(at 198.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5805,7 +6368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 66.04 0)
+			(at 198.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +6377,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 66.04 0)
+			(at 198.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5835,153 +6398,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 73.66 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82bd21f1-4af0-4c4c-8f83-725276f13a18")
-		(property "Reference" "R5"
-			(at 73.66 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 73.66 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 73.66 89.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7800a947-f792-4f3b-a3fd-8fbc54003065")
-		)
-		(pin "1"
-			(uuid "a7e4dc56-f25d-4758-a981-6be14c5b86a8")
-		)
-		(instances
-			(project "Protoboard replacement"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 39.37 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "861e206d-e80d-4593-808b-1c5b9f014b29")
-		(property "Reference" "J6"
-			(at 39.37 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 39.37 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
-			(at 39.37 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b75343f-6513-4b92-b984-f9aa7e05ba67")
-		)
-		(pin "2"
-			(uuid "33d18a5c-7219-4e7a-9104-568ec855b741")
-		)
-		(instances
-			(project "Protoboard replacement"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
-		(at 63.5 62.23 0)
+		(at 83.82 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "866d83ea-427d-47ab-8a83-1ba7dee680e9")
-		(property "Reference" "D1"
-			(at 61.9125 55.88 0)
+		(uuid "7fda672b-f616-439f-9eb8-f34008582696")
+		(property "Reference" "D2"
+			(at 82.2325 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +6416,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 61.9125 58.42 0)
+			(at 82.2325 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +6424,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 63.5 62.23 0)
+			(at 83.82 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,7 +6433,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 62.23 0)
+			(at 83.82 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +6442,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 63.5 62.23 0)
+			(at 83.82 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6024,7 +6451,84 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 63.5 62.23 0)
+			(at 83.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7380079c-98fb-460d-b720-cd0ccaaa6f47")
+		)
+		(pin "1"
+			(uuid "67730d83-921b-4f13-b088-91e27979ac8f")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 82.55 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "866d83ea-427d-47ab-8a83-1ba7dee680e9")
+		(property "Reference" "D1"
+			(at 80.9625 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 80.9625 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+			(at 82.55 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 82.55 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 82.55 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6039,7 +6543,7 @@
 			(uuid "59829a97-d2a1-415a-b210-7fdc176a95af")
 		)
 		(instances
-			(project ""
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "D1")
 					(unit 1)
@@ -6049,7 +6553,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 168.91 64.77 180)
+		(at 189.23 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6057,7 +6561,7 @@
 		(dnp no)
 		(uuid "878ec700-da86-4297-b18f-11ce91e1c930")
 		(property "Reference" "D10"
-			(at 173.228 68.58 0)
+			(at 193.548 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6065,7 +6569,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 173.228 66.04 0)
+			(at 193.548 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6577,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 168.91 64.77 0)
+			(at 189.23 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6586,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 64.77 0)
+			(at 189.23 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,7 +6595,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 168.91 64.77 0)
+			(at 189.23 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,7 +6604,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 168.91 64.77 0)
+			(at 189.23 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,7 +6619,7 @@
 			(uuid "be7c5a00-d009-415a-9df1-8cf24de9704c")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "D10")
 					(unit 1)
@@ -6124,33 +6628,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 59.69 101.6 90)
+		(lib_id "Device:LED")
+		(at 82.55 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ab9afe1-4a5d-4d40-9ab5-9587a34f9893")
-		(property "Reference" "R13"
-			(at 59.69 95.25 90)
+		(uuid "87d9d059-c073-4226-b76a-37a5728ffa06")
+		(property "Reference" "D5"
+			(at 80.9625 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 59.69 97.79 90)
+		(property "Value" "LED"
+			(at 80.9625 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 59.69 103.378 90)
+		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+			(at 82.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6159,7 +6663,84 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 101.6 0)
+			(at 82.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 82.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 82.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "792030d5-a881-451e-81a8-5d0fbe09d712")
+		)
+		(pin "1"
+			(uuid "ede95c41-4bb5-45b7-bc6d-ae82e14506ad")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ab9afe1-4a5d-4d40-9ab5-9587a34f9893")
+		(property "Reference" "R13"
+			(at 73.66 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 73.66 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 73.66 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6168,7 +6749,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 101.6 0)
+			(at 73.66 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +6764,7 @@
 			(uuid "b08f87f9-f2d3-4474-bb52-60d1b2ff4e02")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "R13")
 					(unit 1)
@@ -6193,7 +6774,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 49.53 111.76 0)
+		(at 63.5 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6202,7 +6783,7 @@
 		(fields_autoplaced yes)
 		(uuid "8aedb32d-74f0-42f9-a630-035dd05356cb")
 		(property "Reference" "D15"
-			(at 47.9425 105.41 0)
+			(at 61.9125 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6791,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 47.9425 107.95 0)
+			(at 61.9125 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6218,7 +6799,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 49.53 111.76 0)
+			(at 63.5 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,7 +6808,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 111.76 0)
+			(at 63.5 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +6817,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 49.53 111.76 0)
+			(at 63.5 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,7 +6826,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 49.53 111.76 0)
+			(at 63.5 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6260,7 +6841,7 @@
 			(uuid "9eabf984-8890-4bac-9f2c-45e998c59644")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "D15")
 					(unit 1)
@@ -6269,163 +6850,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 184.15 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c3ff266-973a-40d6-b27f-d2fdf2514bf4")
-		(property "Reference" "#PWR09"
-			(at 184.15 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d70e8a6c-2ae9-472d-b56d-0c44bb8334ae")
-		)
-		(instances
-			(project "elec-thruster-control-board"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96338749-b5d4-4331-9a55-e0a0961874e5")
-		(property "Reference" "#PWR010"
-			(at 185.42 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 187.96 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "740dd6c3-c30c-4b5f-8c52-5baca944a76e")
-		)
-		(instances
-			(project "elec-thruster-control-board"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 49.53 115.57 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 50.8 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "980eccf7-33fb-49b6-85f6-32088b0d3e1e")
-		(property "Reference" "D16"
-			(at 47.9425 109.22 0)
+		(uuid "8ce94010-45de-4735-b834-18925ce8086d")
+		(property "Reference" "J14"
+			(at 50.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 47.9425 111.76 0)
+		(property "Value" "Conn_01x01"
+			(at 50.8 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 49.53 115.57 0)
+		(property "Footprint" ""
+			(at 50.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6434,7 +6885,337 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 115.57 0)
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ca3dd06-68e7-4905-8c76-3ab99cbfb139")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ffa3092-ecee-43c5-869d-cea7be155ea3")
+		(property "Reference" "#PWR020"
+			(at 205.74 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af46d2fd-0578-42c2-b02b-d81624e406e6")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "939e2cea-c1ee-4dbd-8990-28997c85e483")
+		(property "Reference" "#PWR014"
+			(at 73.66 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e22f7f0a-4eca-4311-82e3-986bc350419d")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 219.71 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94b509b7-3d95-45d9-85d2-68a3daa46514")
+		(property "Reference" "J3"
+			(at 222.25 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 222.25 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 219.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e3cb344-b3a3-47cf-9f7c-eeb7aea380d7")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 219.71 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "977bbb6e-06aa-4f14-8f69-4dce3e997549")
+		(property "Reference" "J8"
+			(at 222.25 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 222.25 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 219.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9d3c691-5675-49fd-86f7-f3961c88d035")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 63.5 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "980eccf7-33fb-49b6-85f6-32088b0d3e1e")
+		(property "Reference" "D16"
+			(at 61.9125 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 61.9125 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+			(at 63.5 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6443,7 +7224,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 49.53 115.57 0)
+			(at 63.5 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6452,7 +7233,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 49.53 115.57 0)
+			(at 63.5 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6467,7 +7248,7 @@
 			(uuid "4f25cf2c-3e58-4dae-b8ba-40def139adbc")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "D16")
 					(unit 1)
@@ -6476,84 +7257,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 39.37 77.47 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3289635-7c6e-414c-b799-47e1d9683e17")
-		(property "Reference" "J5"
-			(at 39.37 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 39.37 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
-			(at 39.37 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c51cfdd-3caa-4ba2-8bd8-b8282926668d")
-		)
-		(pin "2"
-			(uuid "5d62d9c9-1fcc-40af-8677-3ce8b7721655")
-		)
-		(instances
-			(project "Protoboard replacement"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 185.42 104.14 0)
+		(at 199.39 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a5f9c6bd-9003-4eef-8969-8e0716c4039b")
-		(property "Reference" "#PWR011"
-			(at 185.42 110.49 0)
+		(uuid "9a82a9d3-e857-4465-9a97-00f706d66345")
+		(property "Reference" "#PWR08"
+			(at 199.39 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6562,7 +7275,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 107.95 0)
+			(at 199.39 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,7 +7283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 104.14 0)
+			(at 199.39 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6579,7 +7292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 104.14 0)
+			(at 199.39 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6588,7 +7301,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 104.14 0)
+			(at 199.39 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,44 +7310,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7460768-b85c-498a-a5f0-398b77096098")
+			(uuid "e8d40fc9-2263-4acb-a92f-1c7de7eb3b64")
 		)
 		(instances
 			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "#PWR011")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 162.56 74.93 270)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 50.8 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "abacd20d-9e1e-4c8a-85ec-a613929f3986")
-		(property "Reference" "R6"
-			(at 162.306 72.644 90)
+		(fields_autoplaced yes)
+		(uuid "a07cfe76-fcaa-480d-9aaa-1caa241925e5")
+		(property "Reference" "J4"
+			(at 50.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 162.56 77.47 90)
+		(property "Value" "Conn_01x01"
+			(at 50.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 162.56 73.152 90)
+		(property "Footprint" ""
+			(at 50.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6643,7 +7357,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 74.93 0)
+			(at 50.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,25 +7365,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 162.56 74.93 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 50.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "21a920e6-0d27-450f-a45d-5c41cb35ab5f")
 		)
 		(pin "1"
-			(uuid "1fc7fdaf-f25f-4bf9-a02c-a6a98fc7887a")
+			(uuid "69e01a0f-35c7-48d0-897d-0f5832324273")
 		)
 		(instances
 			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "R6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6677,16 +7388,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 39.37 86.36 180)
+		(at 50.8 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ad1842ae-5a20-455a-95f6-d2f7cf9225dd")
-		(property "Reference" "J14"
-			(at 39.37 77.47 0)
+		(uuid "a14acdff-bfce-4291-a033-418f8ac3e5af")
+		(property "Reference" "J12"
+			(at 50.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6694,15 +7405,15 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 39.37 80.01 0)
+			(at 50.8 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
-			(at 39.37 86.36 0)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 50.8 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6711,7 +7422,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 86.36 0)
+			(at 50.8 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6720,7 +7431,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 86.36 0)
+			(at 50.8 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6729,15 +7440,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "362d4b1c-430f-4097-b8e1-ae816b123408")
+			(uuid "4050e05a-8beb-4551-8c61-6f16f7764ba0")
 		)
 		(pin "2"
-			(uuid "df2b4c25-9b60-4788-920a-abf086eb57c7")
+			(uuid "74dc0625-d866-483d-a089-ed59df486fe7")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "J14")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -6745,16 +7456,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 106.68 90)
+		(at 93.98 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "af853fd6-1cdf-4106-aecd-8b08cf4fd2d7")
-		(property "Reference" "R14"
-			(at 59.69 100.33 90)
+		(uuid "a722ed6f-c96f-4446-8748-614323ea6991")
+		(property "Reference" "R3"
+			(at 93.98 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6762,7 +7473,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 59.69 102.87 90)
+			(at 93.98 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,7 +7481,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 59.69 108.458 90)
+			(at 93.98 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,7 +7490,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 106.68 0)
+			(at 93.98 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6788,7 +7499,211 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 106.68 0)
+			(at 93.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71650489-0ebe-474a-9ef1-d24cdf54ca13")
+		)
+		(pin "1"
+			(uuid "89f5e9b7-dc4f-47b5-a1cd-cac9a3080729")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 219.71 125.73 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab4ee772-c8a1-42a9-bb47-13a36bdf9250")
+		(property "Reference" "J21"
+			(at 219.075 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 217.932 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0a586fa-5a94-4fa5-8826-0f1260f0d1a3")
+		)
+		(pin "2"
+			(uuid "b73eb3bb-52b5-420d-9909-b97ae33df0c4")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 93.98 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aebc7262-5fe6-43d9-9c94-f4b58a1ed3da")
+		(property "Reference" "R2"
+			(at 93.98 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 93.98 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 93.98 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 93.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51a87f34-16f3-43d9-a830-2dbbd1e3df19")
+		)
+		(pin "1"
+			(uuid "2fd4c2f0-1a88-4c24-b92c-98c863336088")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af853fd6-1cdf-4106-aecd-8b08cf4fd2d7")
+		(property "Reference" "R14"
+			(at 73.66 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 73.66 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 73.66 161.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6803,7 +7718,7 @@
 			(uuid "9ba00570-2c91-4595-baaa-414672af7465")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "R14")
 					(unit 1)
@@ -6812,162 +7727,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 63.5 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b526bdd2-5baf-4fda-8655-615e34b034ea")
-		(property "Reference" "D4"
-			(at 61.9125 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 61.9125 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 63.5 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 63.5 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 63.5 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "96abc46b-6e99-41f5-bf15-e23320962067")
-		)
-		(pin "1"
-			(uuid "c2460400-7678-4118-b4df-0c614b2e0a15")
-		)
-		(instances
-			(project "Protoboard replacement"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 193.04 83.82 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b939160d-11ff-4091-905d-4d7446d29bb1")
-		(property "Reference" "J3"
-			(at 192.405 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 198.882 88.138 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
-			(at 193.04 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 193.04 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f06bebf9-4a09-4961-a8d4-418ffbf8119b")
-		)
-		(pin "2"
-			(uuid "7712884b-02d5-4883-b01f-fb2ab0cc417a")
-		)
-		(instances
-			(project "elec-thruster-control-board"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 55.88 82.55 0)
+		(at 72.39 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5735b07-5daa-47ee-b9b6-0ed187a3499d")
-		(property "Reference" "#PWR06"
-			(at 55.88 88.9 0)
+		(uuid "b2246d23-fad9-4a8a-a2e2-24633f04aed9")
+		(property "Reference" "#PWR016"
+			(at 72.39 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,7 +7745,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 87.63 0)
+			(at 72.39 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6984,7 +7753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 82.55 0)
+			(at 72.39 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6993,7 +7762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 82.55 0)
+			(at 72.39 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7002,7 +7771,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 82.55 0)
+			(at 72.39 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7011,44 +7780,110 @@
 			)
 		)
 		(pin "1"
-			(uuid "46289317-ff09-4a32-81b5-16ec9fdea905")
+			(uuid "5ce1200a-d451-4b37-86eb-0992bf2b639d")
 		)
 		(instances
 			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "#PWR06")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 49.53 125.73 0)
+		(lib_id "power:GND")
+		(at 199.39 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c57dbffe-f181-4733-a42d-075ed6d06fca")
-		(property "Reference" "D11"
-			(at 47.9425 119.38 0)
+		(uuid "b9276241-e16a-4ac9-a96c-07de07d755e4")
+		(property "Reference" "#PWR09"
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 47.9425 118.11 0)
+		(property "Footprint" ""
+			(at 199.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b6282b0-a947-41a5-97cc-32b330a6a5fd")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 50.8 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9da90c3-8469-4625-8d80-6dff7d8292e1")
+		(property "Reference" "J16"
+			(at 50.8 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 49.53 125.73 0)
+		(property "Value" "Conn_01x02_Socket"
+			(at 50.8 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 50.8 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7057,7 +7892,75 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 125.73 0)
+			(at 50.8 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 50.8 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "477e70ae-54ea-49da-b342-be8c460c06df")
+		)
+		(pin "2"
+			(uuid "a377e673-4578-4afc-a4e4-bfe4e53fb02e")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 83.82 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bed11277-e876-4bb2-8c50-c54d2fb8bf9f")
+		(property "Reference" "D3"
+			(at 82.2325 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 82.2325 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+			(at 83.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7066,7 +7969,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 49.53 125.73 0)
+			(at 83.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7075,7 +7978,280 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 49.53 125.73 0)
+			(at 83.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91620792-b856-433f-b99b-d2f1d7e51fc6")
+		)
+		(pin "1"
+			(uuid "99f1246f-bb45-403b-8445-b7a8796c1af8")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c09b05f6-f58a-4c3d-b3a0-7e6eadc4809a")
+		(property "Reference" "#PWR010"
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e4c44c6-161b-43b1-a50d-84ddd1cea23e")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 219.71 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3f78718-3e2c-4928-b24c-1e78b828d993")
+		(property "Reference" "J7"
+			(at 222.25 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 222.25 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 219.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e119365-7c56-484b-8933-9e4a21f964bd")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5559023-39b4-4bcb-9a10-1ba2f20f13da")
+		(property "Reference" "#PWR011"
+			(at 199.39 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "459c46d2-bd11-41d1-96b3-2862da05338d")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 63.5 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c57dbffe-f181-4733-a42d-075ed6d06fca")
+		(property "Reference" "D11"
+			(at 61.9125 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 61.9125 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+			(at 63.5 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 63.5 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 63.5 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,7 +8266,7 @@
 			(uuid "ef506c56-97aa-4964-9d54-f1954782d62a")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "D11")
 					(unit 1)
@@ -7100,7 +8276,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 49.53 106.68 0)
+		(at 63.5 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7109,7 +8285,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7503376-2694-4d1d-8919-fa660e133734")
 		(property "Reference" "D14"
-			(at 47.9425 100.33 0)
+			(at 61.9125 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,7 +8293,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 47.9425 102.87 0)
+			(at 61.9125 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7125,7 +8301,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 49.53 106.68 0)
+			(at 63.5 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7134,7 +8310,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 106.68 0)
+			(at 63.5 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7143,7 +8319,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 49.53 106.68 0)
+			(at 63.5 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7152,7 +8328,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 49.53 106.68 0)
+			(at 63.5 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +8343,7 @@
 			(uuid "d0f4b81c-a021-46e6-9eb9-2fa48d8e15c9")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "D14")
 					(unit 1)
@@ -7176,32 +8352,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 176.53 74.93 180)
+		(lib_id "Device:R")
+		(at 181.61 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c98131d3-8f4a-4766-b20d-528174e8ef43")
-		(property "Reference" "D6"
-			(at 180.848 78.74 0)
+		(uuid "caf7f914-c0b7-40f9-b334-e8330a7aeedb")
+		(property "Reference" "R8"
+			(at 181.356 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 180.848 76.2 0)
+		(property "Value" "R"
+			(at 181.61 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 176.53 74.93 0)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 181.61 94.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7210,7 +8386,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 74.93 0)
+			(at 181.61 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7218,17 +8394,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 176.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 176.53 74.93 0)
+		(property "Description" "Resistor"
+			(at 181.61 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7237,91 +8404,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "732c3751-39a6-4d54-8741-ea972f421f2c")
+			(uuid "aba25a96-ce50-45c4-8952-e96654c43529")
 		)
 		(pin "1"
-			(uuid "d98d9404-cfc5-451c-996c-0015289dfd9b")
+			(uuid "43ce01b5-1ad2-49c0-92e4-e6ff79eeb866")
 		)
 		(instances
 			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 176.53 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9c54262-1d14-4fc2-8815-cacd767cfc67")
-		(property "Reference" "D7"
-			(at 180.848 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 180.848 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 176.53 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 176.53 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 176.53 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "88669880-f8b7-46f6-b8c2-08034b1ca7ed")
-		)
-		(pin "1"
-			(uuid "51061d71-e7b3-4a5b-b298-6a3c40e3a635")
-		)
-		(instances
-			(project "elec-thruster-control-board"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "D7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7329,16 +8420,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 193.04 74.93 0)
-		(mirror x)
+		(at 50.8 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cefb8f72-b906-4895-ac4b-28589a18138c")
-		(property "Reference" "J1"
-			(at 192.405 67.31 0)
+		(fields_autoplaced yes)
+		(uuid "cbaa8af4-5eda-4c8f-bacf-dd653772bdb9")
+		(property "Reference" "J15"
+			(at 50.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7346,15 +8437,15 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 191.262 79.248 0)
+			(at 50.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
-			(at 193.04 74.93 0)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 50.8 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7363,7 +8454,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 74.93 0)
+			(at 50.8 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7372,7 +8463,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 193.04 74.93 0)
+			(at 50.8 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7381,151 +8472,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b638c48-034c-4f81-b2b5-f5ef8106746f")
+			(uuid "842e881c-afb0-4cb9-a379-7231f82d223b")
 		)
 		(pin "2"
-			(uuid "73f34162-a311-4a30-bb41-a37d8b8f8120")
+			(uuid "45d0a6bc-dbcf-4d16-a2bd-f40bd211bc4b")
 		)
 		(instances
 			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 193.04 102.87 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d24c8a8d-f752-4900-89ca-8b00a7e3eaed")
-		(property "Reference" "J8"
-			(at 192.405 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 191.262 107.188 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
-			(at 193.04 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 193.04 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b7e0d0e-4020-4b42-b055-2825e0c47ba1")
-		)
-		(pin "2"
-			(uuid "00d5c440-14bd-4fdd-b7b5-43224e3d20ae")
-		)
-		(instances
-			(project "elec-thruster-control-board"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 193.04 92.71 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4c8de29-fd92-4ed4-9619-927b42399f72")
-		(property "Reference" "J7"
-			(at 192.405 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 191.262 97.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
-			(at 193.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 193.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56d7938c-d7ea-4670-9128-c9d99f014188")
-		)
-		(pin "2"
-			(uuid "10b5fde5-5162-4878-9908-927a9951db2d")
-		)
-		(instances
-			(project "elec-thruster-control-board"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "J7")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -7533,16 +8488,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 77.47 0)
+		(at 72.39 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd0abd64-b56a-402e-ab10-e2edf1cbf80f")
-		(property "Reference" "#PWR02"
-			(at 58.42 83.82 0)
+		(uuid "cce9135d-55f9-4896-96e5-b9d36a0104b9")
+		(property "Reference" "#PWR06"
+			(at 72.39 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7551,7 +8506,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 82.55 0)
+			(at 72.39 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7559,7 +8514,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 77.47 0)
+			(at 72.39 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7568,7 +8523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 77.47 0)
+			(at 72.39 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7577,7 +8532,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 77.47 0)
+			(at 72.39 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7586,45 +8541,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "baa469c3-e402-4be5-ab76-2995491e33f6")
+			(uuid "db2dcb13-5133-43a6-b753-f5c14682596f")
 		)
 		(instances
 			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "#PWR02")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 73.66 69.85 90)
+		(lib_id "Device:LED")
+		(at 82.55 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "df038aac-3079-42d8-937c-0275140da255")
-		(property "Reference" "R2"
-			(at 73.66 63.5 90)
+		(uuid "d1f4fbe2-1d62-492a-a796-27a6b2cfd9f9")
+		(property "Reference" "D4"
+			(at 80.9625 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 73.66 66.04 90)
+		(property "Value" "LED"
+			(at 80.9625 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 73.66 71.628 90)
+		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+			(at 82.55 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7633,7 +8588,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 69.85 0)
+			(at 82.55 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7641,8 +8596,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 73.66 69.85 0)
+		(property "Description" "Light emitting diode"
+			(at 82.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 82.55 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7651,48 +8615,48 @@
 			)
 		)
 		(pin "2"
-			(uuid "63163653-6b88-4813-9e51-d23c5b89e78f")
+			(uuid "fdad515d-cbdc-4c11-8460-9770cabfe572")
 		)
 		(pin "1"
-			(uuid "007e511f-9e30-4261-b99d-7cc7a45660bd")
+			(uuid "17077e4a-6c4b-464e-a770-6812f4e95331")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "R2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 59.69 120.65 90)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 219.71 64.77 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7b2ca12-30c1-4285-a30a-52969c9a71ec")
-		(property "Reference" "R12"
-			(at 59.69 114.3 90)
+		(uuid "d5dceae3-b616-48f8-8d00-35282ebe8fbb")
+		(property "Reference" "J18"
+			(at 219.075 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 59.69 116.84 90)
+		(property "Value" "Conn_01x02_Socket"
+			(at 217.932 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 59.69 122.428 90)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 219.71 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,7 +8665,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 120.65 0)
+			(at 219.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 219.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2589074-9c60-49bb-818e-7ff8195396a3")
+		)
+		(pin "2"
+			(uuid "f8319c83-ff45-4c46-94d5-4371497d65c2")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d67b6d9b-ad50-478a-a502-b2f1c1991e8d")
+		(property "Reference" "R6"
+			(at 181.356 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 181.61 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 181.61 64.262 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7710,7 +8741,341 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 120.65 0)
+			(at 181.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f0120965-8f8b-4e24-90b0-e9f747426958")
+		)
+		(pin "1"
+			(uuid "39e44ffc-0dc6-4498-9761-052219f1c041")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de0bb473-674d-492f-80e9-c53611f93401")
+		(property "Reference" "#PWR015"
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.914 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a174f725-d8ee-46c0-ac95-1532979d4f6c")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df0d8a8a-d07c-4af7-9577-36fa8d1fbabf")
+		(property "Reference" "R7"
+			(at 181.356 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 181.61 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 181.61 84.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63aa7d83-eaea-4480-b5d4-25a160f3d0dc")
+		)
+		(pin "1"
+			(uuid "3802eb80-5f26-452e-9f76-52f7b03ab376")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 219.71 104.14 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e272f281-c6a3-45d3-bdab-99256d5c236f")
+		(property "Reference" "J20"
+			(at 219.075 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 217.932 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 219.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 219.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bad12e3-e241-43df-856d-9ae0c798657c")
+		)
+		(pin "2"
+			(uuid "3bcff23e-0d59-406d-9371-beabc5753775")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e616b16b-0b39-408e-8a5c-1a04f5f15b89")
+		(property "Reference" "#PWR013"
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97a48815-0cc2-4ee3-9498-c521b23a314a")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7b2ca12-30c1-4285-a30a-52969c9a71ec")
+		(property "Reference" "R12"
+			(at 73.66 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 73.66 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 73.66 175.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7725,7 +9090,7 @@
 			(uuid "09da9a6a-02be-4548-9912-5d8862e1b3df")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "R12")
 					(unit 1)
@@ -7734,32 +9099,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 59.69 125.73 90)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 219.71 85.09 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "eb9910de-cebe-4b7e-8245-cfabe1cbd035")
-		(property "Reference" "R11"
-			(at 59.69 119.38 90)
+		(uuid "e805b9c5-9efb-4adb-ac4c-a7594475410a")
+		(property "Reference" "J19"
+			(at 219.075 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 59.69 118.11 90)
+		(property "Value" "Conn_01x02_Socket"
+			(at 217.932 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 59.69 127.508 90)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 219.71 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,7 +9134,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 125.73 0)
+			(at 219.71 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 219.71 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c24a307f-09e5-41ee-84ac-16eb3321e0a0")
+		)
+		(pin "2"
+			(uuid "2023a92a-b4e0-4e98-b51f-bce7215c2fb7")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb9910de-cebe-4b7e-8245-cfabe1cbd035")
+		(property "Reference" "R11"
+			(at 73.66 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 73.66 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 73.66 180.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7777,7 +9210,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 125.73 0)
+			(at 73.66 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7792,7 +9225,7 @@
 			(uuid "a523d43d-dae4-4bb2-bbd8-f6fe67ec973b")
 		)
 		(instances
-			(project "Protoboard replacement"
+			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "R11")
 					(unit 1)
@@ -7801,84 +9234,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 162.56 92.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ebf4baa7-f7da-45b3-b8cb-dc4bef75f4ea")
-		(property "Reference" "R8"
-			(at 162.306 90.424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 162.56 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 162.56 90.932 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 162.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0eb7fe5b-1632-4aa5-8a23-9f00a8b0a233")
-		)
-		(pin "1"
-			(uuid "7fc69acf-f649-4203-936e-a2dffc9c615b")
-		)
-		(instances
-			(project "elec-thruster-control-board"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 57.15 90.17 0)
+		(at 204.47 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f653a856-e4f3-414e-bfe9-a12a56456577")
-		(property "Reference" "#PWR03"
-			(at 57.15 96.52 0)
+		(uuid "ec0100a2-6464-4404-a243-9c3ef15fcf83")
+		(property "Reference" "#PWR017"
+			(at 204.47 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7887,7 +9252,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 95.25 0)
+			(at 204.47 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7895,7 +9260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 90.17 0)
+			(at 204.47 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7904,7 +9269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 90.17 0)
+			(at 204.47 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7913,7 +9278,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 90.17 0)
+			(at 204.47 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,44 +9287,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "459a14d2-16ae-4378-aece-a64b2a9e99d7")
+			(uuid "99aa88a0-dcb7-4a0f-9d6c-f84fb48fdf88")
 		)
 		(instances
 			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "#PWR03")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 176.53 92.71 180)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 50.8 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fbee5d3d-cd6f-412c-9755-bd364112a10c")
-		(property "Reference" "D8"
-			(at 180.848 96.52 0)
+		(fields_autoplaced yes)
+		(uuid "ec2d3c7f-5ae6-439c-8698-00f8da942411")
+		(property "Reference" "J9"
+			(at 50.8 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 180.848 93.98 0)
+		(property "Value" "Conn_01x01"
+			(at 50.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 176.53 92.71 0)
+		(property "Footprint" ""
+			(at 50.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,7 +9334,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 92.71 0)
+			(at 50.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7976,34 +9342,155 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 176.53 92.71 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 50.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 176.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a5555e7f-0320-4260-8e6e-45a317f7cb06")
 		)
 		(pin "1"
-			(uuid "61ddae7c-cda0-4267-b447-da7b96ad8e9d")
+			(uuid "0a2be00d-2cd5-4101-a06f-175f1fc5fbd8")
 		)
 		(instances
 			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "D8")
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 50.8 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef5bd930-c380-4114-88f7-aa5702d04a33")
+		(property "Reference" "J5"
+			(at 50.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8b7d7e0-4380-4059-b384-9ba40d6e8acb")
+		)
+		(pin "2"
+			(uuid "b174821b-c85f-4a0e-8445-b9ebca658506")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 50.8 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8eec4c0-b638-473a-82d7-b33717b9a966")
+		(property "Reference" "J10"
+			(at 50.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 50.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94ad3521-d827-4330-bd79-cf86db1d036d")
+		)
+		(instances
+			(project "elec-thruster-control-board"
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "J10")
 					(unit 1)
 				)
 			)
