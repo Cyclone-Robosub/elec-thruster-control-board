@@ -260,384 +260,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x05_Counter_Clockwise"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J13"
-				(at -0.0001 7.62 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Value" "Conn_02x05_Counter_Clockwise"
-				(at 20.828 -7.366 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_02x05_Counter_Clockwise_1_1"
-				(rectangle
-					(start -1.27 6.35)
-					(end 3.81 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 5.207)
-					(end 2.54 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -2657,16 +2279,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 149.86) (xy 116.84 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45289d12-590a-4b7b-84c1-89df46f6e5c0")
-	)
-	(wire
-		(pts
 			(xy 83.82 118.11) (xy 81.28 118.11)
 		)
 		(stroke
@@ -3835,26 +3447,6 @@
 		)
 		(uuid "ffc2a511-940d-4c3c-a67b-3bcef32ba0bc")
 	)
-	(label "gp2-pwm1A"
-		(at 124.46 137.16 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c9453c8-4cc2-4c7a-bd58-fe32ec1b8935")
-	)
-	(label "gp0-pwm0A"
-		(at 127 137.16 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e276a11-3f77-49c7-95b0-c8f7ce884112")
-	)
 	(label "gp27-pwm5B"
 		(at 186.69 97.79 0)
 		(effects
@@ -3885,16 +3477,6 @@
 		)
 		(uuid "407a90df-2093-41d0-89ba-0067b5e07692")
 	)
-	(label "gp6-pwm3A"
-		(at 119.38 137.16 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "41792ee7-b0dc-4b19-ac5a-1ec831e1c447")
-	)
 	(label "gp4-pwm2A"
 		(at 45.72 63.5 0)
 		(effects
@@ -3905,16 +3487,6 @@
 		)
 		(uuid "52b877e4-e602-44f5-93d4-fabed67beb10")
 	)
-	(label "gp4-pwm2A"
-		(at 121.92 137.16 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5485188e-e709-4bb3-87be-3f5aa78ac31c")
-	)
 	(label "gp26-pwm5A"
 		(at 186.69 76.2 0)
 		(effects
@@ -3924,36 +3496,6 @@
 			(justify left bottom)
 		)
 		(uuid "575283d8-1b77-4a39-8577-363bb98db7df")
-	)
-	(label "gp19-pwm1B"
-		(at 124.46 149.86 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "59657775-25b2-42f3-b1ba-1a7df169a97a")
-	)
-	(label "gp26-pwm5A"
-		(at 119.38 149.86 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "78a3f993-926a-4b41-a201-3046f2e7dedf")
-	)
-	(label "CLK"
-		(at 116.84 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7c60e844-aef1-4a0f-983a-4178badc6d73")
 	)
 	(label "gp0-pwm0A"
 		(at 44.45 21.59 0)
@@ -3985,16 +3527,6 @@
 		)
 		(uuid "be1ec9a5-4817-4c2f-980e-594b477a3a94")
 	)
-	(label "gp17-pwm0B"
-		(at 127 149.86 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d0edeb05-4138-4731-8c04-f27d43871402")
-	)
 	(label "gp2-pwm1A"
 		(at 45.72 41.91 0)
 		(effects
@@ -4015,16 +3547,6 @@
 		)
 		(uuid "ea586f4d-d637-4514-bc89-2b15403441a8")
 	)
-	(label "gp21-pwm2B"
-		(at 121.92 149.86 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ed605500-9444-44d2-841a-1c139a615ab3")
-	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 203.2 27.94 0)
@@ -4043,15 +3565,15 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 201.422 32.258 0)
+		(property "Value" "gp17-pwm0B"
+			(at 212.598 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 203.2 27.94 0)
 			(effects
 				(font
@@ -4185,7 +3707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 58.42 166.878 90)
 			(effects
 				(font
@@ -4252,7 +3774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 162.56 18.542 90)
 			(effects
 				(font
@@ -4320,7 +3842,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 58.42 156.718 90)
 			(effects
 				(font
@@ -4387,7 +3909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 173.99 40.64 0)
 			(effects
 				(font
@@ -4521,7 +4043,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "gp0-pwm0A"
 			(at 35.56 26.67 0)
 			(effects
 				(font
@@ -4529,7 +4051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 35.56 33.02 0)
 			(effects
 				(font
@@ -4597,7 +4119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 77.47 119.888 90)
 			(effects
 				(font
@@ -4980,7 +4502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 173.99 60.96 0)
 			(effects
 				(font
@@ -5057,7 +4579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 44.45 133.35 0)
 			(effects
 				(font
@@ -5264,7 +4786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 175.26 110.49 0)
 			(effects
 				(font
@@ -5408,7 +4930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 203.2 16.51 0)
 			(effects
 				(font
@@ -5473,7 +4995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 77.47 98.298 90)
 			(effects
 				(font
@@ -5605,7 +5127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 166.37 108.712 90)
 			(effects
 				(font
@@ -5672,7 +5194,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 172.72 77.47 0)
 			(effects
 				(font
@@ -5749,7 +5271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 77.47 34.798 90)
 			(effects
 				(font
@@ -5819,7 +5341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 204.47 36.83 0)
 			(effects
 				(font
@@ -5859,73 +5381,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 113.03 149.86 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "652c24c9-392c-4026-9abc-5b3efdb43acc")
-		(property "Reference" "#PWR022"
-			(at 106.68 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 109.22 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8660f949-c398-4e16-892c-1ee5ed142a99")
-		)
-		(instances
-			(project ""
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 48.26 176.53 0)
 		(unit 1)
@@ -5950,7 +5405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 48.26 176.53 0)
 			(effects
 				(font
@@ -6027,7 +5482,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 35.56 106.68 0)
 			(effects
 				(font
@@ -6061,101 +5516,6 @@
 			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x05_Counter_Clockwise")
-		(at 121.92 142.24 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6bb8e137-a72c-43f5-8b52-a4ed369b53a6")
-		(property "Reference" "J13"
-			(at 129.54 142.2399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Conn_02x05_Counter_Clockwise"
-			(at 114.554 163.068 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PHD_B10B-PHDSS_2x05_P2.00mm_Vertical"
-			(at 121.92 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 121.92 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ff1227ef-e57d-4118-9861-8795d2b51060")
-		)
-		(pin "2"
-			(uuid "31201653-68c7-44ed-b38e-fddbefdfc754")
-		)
-		(pin "1"
-			(uuid "05b1c954-ff76-46a4-9787-2376a97de853")
-		)
-		(pin "4"
-			(uuid "6f5ebed7-9546-42cc-810b-ced94cb70a64")
-		)
-		(pin "10"
-			(uuid "84146fb6-22e6-4f99-bca0-20ccd2477106")
-		)
-		(pin "5"
-			(uuid "a91dc4d7-4f31-42a3-b285-40359af97639")
-		)
-		(pin "3"
-			(uuid "6e2de9f0-5eaa-4ba8-b36e-2e6ba48f9945")
-		)
-		(pin "9"
-			(uuid "a576ba1c-47f9-4a07-a58e-9d7e453eaa06")
-		)
-		(pin "7"
-			(uuid "51c2e93d-cd7f-451a-a04d-37949d551f2e")
-		)
-		(pin "6"
-			(uuid "1b042e38-d896-4d50-8e77-410b87d58f8e")
-		)
-		(instances
-			(project ""
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -6318,7 +5678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 68.58 53.34 0)
 			(effects
 				(font
@@ -6395,7 +5755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 67.31 33.02 0)
 			(effects
 				(font
@@ -6471,7 +5831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 171.45 20.32 0)
 			(effects
 				(font
@@ -6548,7 +5908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 67.31 118.11 0)
 			(effects
 				(font
@@ -6625,7 +5985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 58.42 135.128 90)
 			(effects
 				(font
@@ -6692,7 +6052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 45.72 154.94 0)
 			(effects
 				(font
@@ -6769,7 +6129,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 35.56 85.09 0)
 			(effects
 				(font
@@ -6967,7 +6327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 204.47 57.15 0)
 			(effects
 				(font
@@ -7034,7 +6394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 204.47 97.79 0)
 			(effects
 				(font
@@ -7099,7 +6459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 48.26 165.1 0)
 			(effects
 				(font
@@ -7241,7 +6601,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 35.56 63.5 0)
 			(effects
 				(font
@@ -7298,7 +6658,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "gp2-pwm1A"
 			(at 35.56 46.99 0)
 			(effects
 				(font
@@ -7306,7 +6666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 35.56 53.34 0)
 			(effects
 				(font
@@ -7374,7 +6734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 78.74 76.708 90)
 			(effects
 				(font
@@ -7434,15 +6794,15 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 202.692 113.538 0)
+		(property "Value" "gp27-pwm5B"
+			(at 217.424 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 204.47 109.22 0)
 			(effects
 				(font
@@ -7510,7 +6870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 78.74 55.118 90)
 			(effects
 				(font
@@ -7562,7 +6922,7 @@
 		(dnp no)
 		(uuid "af853fd6-1cdf-4106-aecd-8b08cf4fd2d7")
 		(property "Reference" "R14"
-			(at 58.42 137.16 90)
+			(at 58.42 136.398 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7577,7 +6937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 58.42 145.288 90)
 			(effects
 				(font
@@ -7767,7 +7127,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "gp8-pwm4A"
 			(at 35.56 111.76 0)
 			(effects
 				(font
@@ -7775,7 +7135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 35.56 118.11 0)
 			(effects
 				(font
@@ -7843,7 +7203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 68.58 74.93 0)
 			(effects
 				(font
@@ -7987,7 +7347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 204.47 76.2 0)
 			(effects
 				(font
@@ -8116,7 +7476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 48.26 186.69 0)
 			(effects
 				(font
@@ -8193,7 +7553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 44.45 143.51 0)
 			(effects
 				(font
@@ -8269,7 +7629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 163.83 75.692 90)
 			(effects
 				(font
@@ -8329,7 +7689,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "gp6-pwm3A"
 			(at 35.56 90.17 0)
 			(effects
 				(font
@@ -8337,7 +7697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 35.56 96.52 0)
 			(effects
 				(font
@@ -8446,6 +7806,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 146.05 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cefadb47-1c1f-437d-8454-d8ae34672404")
+		(property "Reference" "#PWR024"
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aab2aebc-89b9-4009-bc7d-4c19bf93aa5f")
+		)
+		(instances
+			(project ""
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 67.31 96.52 0)
 		(unit 1)
@@ -8471,7 +7897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 67.31 96.52 0)
 			(effects
 				(font
@@ -8540,15 +7966,15 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 202.692 52.578 0)
+		(property "Value" "gp19-pwm1B"
+			(at 213.614 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 204.47 48.26 0)
 			(effects
 				(font
@@ -8615,7 +8041,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 165.1 38.862 90)
 			(effects
 				(font
@@ -8747,7 +8173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 165.1 59.182 90)
 			(effects
 				(font
@@ -8807,15 +8233,15 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 202.692 91.948 0)
+		(property "Value" "gp26-pwm5A"
+			(at 216.408 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 204.47 87.63 0)
 			(effects
 				(font
@@ -8949,7 +8375,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 58.42 178.308 90)
 			(effects
 				(font
@@ -9009,15 +8435,15 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 202.692 72.898 0)
+		(property "Value" "gp21-pwm2B"
+			(at 217.17 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 204.47 68.58 0)
 			(effects
 				(font
@@ -9084,7 +8510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 58.42 188.468 90)
 			(effects
 				(font
@@ -9217,7 +8643,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 35.56 21.59 0)
 			(effects
 				(font
@@ -9264,7 +8690,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ef5bd930-c380-4114-88f7-aa5702d04a33")
 		(property "Reference" "J5"
 			(at 35.56 66.04 0)
@@ -9274,15 +8699,15 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 35.56 68.58 0)
+		(property "Value" "gp4-pwm2A"
+			(at 35.56 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 35.56 74.93 0)
 			(effects
 				(font
@@ -9350,7 +8775,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 35.56 41.91 0)
 			(effects
 				(font
@@ -9384,6 +8809,72 @@
 			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd84b15e-6c89-478a-8045-7c170e273480")
+		(property "Reference" "#PWR023"
+			(at 123.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a977c8df-0edb-40b1-b04f-868fd9df3018")
+		)
+		(instances
+			(project ""
+				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
