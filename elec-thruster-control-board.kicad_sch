@@ -2553,6 +2553,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 58.42) (xy 210.82 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05fcb014-dc2f-4439-8a71-792c46958823")
+	)
+	(wire
+		(pts
 			(xy 123.19 142.24) (xy 133.35 142.24)
 		)
 		(stroke
@@ -3403,7 +3413,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 16.51) (xy 256.54 16.51)
+			(xy 243.84 16.51) (xy 257.81 16.51)
 		)
 		(stroke
 			(width 0)
@@ -4343,13 +4353,23 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 25.4) (xy 256.54 25.4)
+			(xy 243.84 25.4) (xy 257.81 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ca91a3f5-3198-47a9-8209-c5f2b44eb1fd")
+	)
+	(wire
+		(pts
+			(xy 210.82 54.61) (xy 207.01 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2eae7a-cac5-4892-8812-8f62df15cf7c")
 	)
 	(wire
 		(pts
@@ -4443,7 +4463,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 27.94) (xy 247.65 27.94)
+			(xy 257.81 27.94) (xy 247.65 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4843,7 +4863,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 261.62 27.94 0)
+		(at 262.89 27.94 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4852,7 +4872,7 @@
 		(dnp no)
 		(uuid "018d71f7-0027-4e49-921d-3d0bda5fc2d1")
 		(property "Reference" "J11"
-			(at 260.985 20.32 0)
+			(at 262.255 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +4880,7 @@
 			)
 		)
 		(property "Value" "gp17-pwm0B"
-			(at 271.018 24.638 0)
+			(at 272.288 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +4888,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 261.62 27.94 0)
+			(at 262.89 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4877,7 +4897,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 27.94 0)
+			(at 262.89 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +4906,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 261.62 27.94 0)
+			(at 262.89 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6330,7 +6350,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 261.62 16.51 0)
+		(at 262.89 16.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6339,7 +6359,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e0257cd-b4e5-4d6b-8578-ccb8063b7768")
 		(property "Reference" "J17"
-			(at 264.16 15.2399 0)
+			(at 265.43 15.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,7 +6368,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 264.16 17.7799 0)
+			(at 265.43 17.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,7 +6377,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 261.62 16.51 0)
+			(at 262.89 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6366,7 +6386,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 16.51 0)
+			(at 262.89 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,7 +6395,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 261.62 16.51 0)
+			(at 262.89 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7079,16 +7099,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 73.66 0)
+		(at 207.01 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "75e0be3a-e9df-478a-9c5e-cb16013a21cf")
 		(property "Reference" "#PWR022"
-			(at 210.82 80.01 0)
+			(at 207.01 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7097,15 +7116,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 78.74 0)
+			(at 209.042 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 73.66 0)
+			(at 207.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7114,7 +7134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 73.66 0)
+			(at 207.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7123,7 +7143,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 73.66 0)
+			(at 207.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7276,7 +7296,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 215.9 66.04 0)
+		(at 215.9 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7285,7 +7305,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c28922e-4df8-4a6e-81a1-8e8ab63a75af")
 		(property "Reference" "J24"
-			(at 218.44 66.0399 0)
+			(at 218.44 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7294,7 +7314,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 218.44 68.5799 0)
+			(at 218.44 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7302,8 +7322,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical"
-			(at 215.9 66.04 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7312,7 +7332,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 66.04 0)
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7321,7 +7341,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 215.9 66.04 0)
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8902,7 +8922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 48.26 74.93 0)
 			(effects
 				(font
@@ -9544,7 +9564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 			(at 138.43 139.7 0)
 			(effects
 				(font
