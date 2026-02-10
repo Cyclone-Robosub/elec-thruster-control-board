@@ -4826,7 +4826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Imported Footprints:LED_APT2012LZGCK"
 			(at 173.99 40.64 0)
 			(effects
 				(font
@@ -5421,7 +5421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Imported Footprints:LED_APT2012LZGCK"
 			(at 173.99 60.96 0)
 			(effects
 				(font
@@ -5498,7 +5498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Imported Footprints:LED_APT2012LZGCK"
 			(at 44.45 133.35 0)
 			(effects
 				(font
@@ -5705,7 +5705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Imported Footprints:LED_APT2012LZGCK"
 			(at 175.26 110.49 0)
 			(effects
 				(font
@@ -6110,7 +6110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Imported Footprints:LED_APT2012LZGCK"
 			(at 172.72 77.47 0)
 			(effects
 				(font
@@ -6254,7 +6254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Imported Footprints:LED_APT2012LZGCK"
 			(at 48.26 176.53 0)
 			(effects
 				(font
@@ -6740,7 +6740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Imported Footprints:LED_APT2012LZGCK"
 			(at 69.85 53.34 0)
 			(effects
 				(font
@@ -6881,7 +6881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Imported Footprints:LED_APT2012LZGCK"
 			(at 68.58 33.02 0)
 			(effects
 				(font
@@ -6957,7 +6957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Imported Footprints:LED_APT2012LZGCK"
 			(at 171.45 20.32 0)
 			(effects
 				(font
@@ -7034,7 +7034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Imported Footprints:LED_APT2012LZGCK"
 			(at 67.31 118.11 0)
 			(effects
 				(font
@@ -7178,7 +7178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Imported Footprints:LED_APT2012LZGCK"
 			(at 45.72 154.94 0)
 			(effects
 				(font
@@ -7450,7 +7450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Imported Footprints:LED_APT2012LZGCK"
 			(at 48.26 165.1 0)
 			(effects
 				(font
@@ -8209,7 +8209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Imported Footprints:LED_APT2012LZGCK"
 			(at 69.85 74.93 0)
 			(effects
 				(font
@@ -8415,7 +8415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Imported Footprints:LED_APT2012LZGCK"
 			(at 48.26 186.69 0)
 			(effects
 				(font
@@ -8492,7 +8492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Imported Footprints:LED_APT2012LZGCK"
 			(at 44.45 143.51 0)
 			(effects
 				(font
@@ -8921,7 +8921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Imported Footprints:LED_APT2012LZGCK"
 			(at 68.58 96.52 0)
 			(effects
 				(font
