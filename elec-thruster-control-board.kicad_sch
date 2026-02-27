@@ -6905,7 +6905,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "myLibrary:LED_APT2012LZGCK"
 			(at 91.44 184.15 0)
 			(effects
 				(font
@@ -8579,7 +8579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "myLibrary:LED_APT2012LZGCK"
 			(at 171.45 20.32 0)
 			(effects
 				(font
@@ -10118,7 +10118,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "myLibrary:LED_APT2012LZGCK"
 			(at 25.4 142.24 0)
 			(effects
 				(font
