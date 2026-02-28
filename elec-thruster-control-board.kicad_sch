@@ -5684,11 +5684,9 @@
 		)
 		(pin "24"
 			(uuid "fa1f7343-720e-4287-82c7-15aaf18dac63")
-			(alternate "PWM1_A")
 		)
 		(pin "25"
 			(uuid "2ae0dfa1-7b59-4061-b636-58acd0c46b7d")
-			(alternate "PWM1_B")
 		)
 		(pin "36"
 			(uuid "72fb7f0b-8526-49a3-be37-6c722feb2037")
