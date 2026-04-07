@@ -2017,89 +2017,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2506,7 +2423,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 129.54) (xy 25.4 129.54)
+			(xy 21.59 129.54) (xy 25.4 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2576,7 +2493,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 139.7) (xy 16.51 146.05)
+			(xy 21.59 139.7) (xy 21.59 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3726,7 +3643,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 146.05) (xy 25.4 146.05)
+			(xy 21.59 146.05) (xy 25.4 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4396,7 +4313,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 137.16) (xy 16.51 129.54)
+			(xy 21.59 137.16) (xy 21.59 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6272,70 +6189,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 154.94 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48cd33de-f73a-4a06-a66c-eb43a53dd2e6")
-		(property "Reference" "H4"
-			(at 157.48 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 157.48 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 154.94 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 154.94 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "elec-thruster-control-board"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 77.47 96.52 90)
 		(unit 1)
@@ -6674,70 +6527,6 @@
 			(project ""
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 154.94 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6929b9de-39c2-4256-a141-e1f632b6fa2e")
-		(property "Reference" "H3"
-			(at 157.48 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 157.48 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 154.94 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 154.94 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "elec-thruster-control-board"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -7245,70 +7034,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 154.94 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84b8532f-3e8e-42b9-b7f6-a8b203088023")
-		(property "Reference" "H1"
-			(at 157.48 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 157.48 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 154.94 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 154.94 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 34.29 134.62 180)
 		(unit 1)
@@ -7803,70 +7528,6 @@
 			(project "elec-thruster-control-board"
 				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 154.94 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "937b8b60-309c-4148-b811-664ffae7e469")
-		(property "Reference" "H2"
-			(at 157.48 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 157.48 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 154.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 154.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "elec-thruster-control-board"
-				(path "/fa018284-1034-44b1-9794-14f4e7ef613d"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -8421,7 +8082,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 11.43 139.7 180)
+		(at 16.51 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8430,7 +8091,7 @@
 		(fields_autoplaced yes)
 		(uuid "b17f0780-965c-427f-895f-256b2a26e699")
 		(property "Reference" "J3"
-			(at 11.43 130.81 0)
+			(at 16.51 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8438,7 +8099,7 @@
 			)
 		)
 		(property "Value" "gp8-pwm4A"
-			(at 11.43 133.35 0)
+			(at 16.51 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8446,7 +8107,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 11.43 139.7 0)
+			(at 16.51 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,7 +8116,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 11.43 139.7 0)
+			(at 16.51 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8464,7 +8125,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 11.43 139.7 0)
+			(at 16.51 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
