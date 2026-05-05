@@ -16378,6 +16378,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Assembly Notes:\nDot next to LED pad signifies negative terminal/Lower potential"
+		(at 184.3 51.5 0)
+		(layer "Cmts.User")
+		(uuid "90ef3778-ae07-4bb8-9b49-0d31e965d59f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 161 101)
 		(end 162.75 101)
@@ -16900,7 +16912,7 @@
 		(uuid "93196f46-af6c-46a6-9409-41af703cbe7c")
 	)
 	(via
-		(at 132.9969 113.79875)
+		(at 133.2969 113.975)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
